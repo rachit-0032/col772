@@ -4,7 +4,7 @@
     "output_tokens": [
       "<self>",
       "<self>",
-      "<self>",
+      "",
       "<self>",
       "<self>",
       "<self>",
@@ -26,7 +26,7 @@
       "sil",
       "<self>",
       "sil",
-      "<self>",
+      "",
       "sil",
       "sil"
     ]
@@ -119,7 +119,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "eighteen",
       "<self>",
       "<self>",
       "<self>",
@@ -135,9 +135,9 @@
     "output_tokens": [
       "<self>",
       "<self>",
-      "<self>",
+      "",
       "sil",
-      "<self>",
+      "seven",
       "<self>",
       "<self>",
       "<self>",
@@ -193,7 +193,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "",
       "<self>",
       "<self>",
       "<self>",
@@ -217,7 +217,7 @@
       "<self>",
       "<self>",
       "sil",
-      "<self>",
+      "eleven",
       "sil"
     ]
   },
@@ -234,7 +234,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "",
       "sil"
     ]
   },
@@ -248,7 +248,7 @@
       "<self>",
       "<self>",
       "sil",
-      "<self>",
+      "",
       "sil",
       "sil"
     ]
@@ -285,10 +285,10 @@
       "<self>",
       "sil",
       "<self>",
+      "eleven",
       "<self>",
       "<self>",
-      "<self>",
-      "<self>",
+      "ten",
       "<self>",
       "sil",
       "<self>",
@@ -310,11 +310,11 @@
       "<self>",
       "<self>",
       "<self>",
+      "",
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
-      "<self>",
+      "",
       "<self>",
       "<self>",
       "sil",
@@ -344,7 +344,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "one",
       "sil"
     ]
   },
@@ -390,7 +390,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "",
       "<self>",
       "<self>",
       "<self>",
@@ -420,7 +420,7 @@
       "<self>",
       "<self>",
       "sil",
-      "<self>",
+      "",
       "sil",
       "sil"
     ]
@@ -471,7 +471,7 @@
       "<self>",
       "<self>",
       "sil",
-      "<self>",
+      "",
       "sil"
     ]
   },
@@ -577,13 +577,13 @@
       "<self>",
       "sil",
       "<self>",
-      "<self>",
+      "",
       "i s b n ",
       "<self>",
       "<self>",
       "<self>",
       "sil",
-      "<self>",
+      "",
       "sil",
       "sil"
     ]
@@ -675,7 +675,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "",
       "<self>",
       "<self>",
       "sil",
@@ -705,9 +705,9 @@
       "<self>",
       "<self>",
       "<self>",
+      "",
       "<self>",
-      "<self>",
-      "<self>",
+      "",
       "sil"
     ]
   },
@@ -805,7 +805,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "",
       "<self>",
       "sil",
       "<self>",
@@ -813,7 +813,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "",
       "sil"
     ]
   },
@@ -822,7 +822,7 @@
     "output_tokens": [
       "<self>",
       "<self>",
-      "<self>",
+      "",
       "<self>",
       "<self>",
       "<self>",
@@ -905,7 +905,7 @@
       "d b l ",
       "<self>",
       "<self>",
-      "<self>",
+      "nine",
       "sil",
       "<self>",
       "<self>",
@@ -932,10 +932,10 @@
       "<self>",
       "sil",
       "<self>",
+      "two",
       "<self>",
       "<self>",
-      "<self>",
-      "<self>",
+      "minus ",
       "sil",
       "<self>",
       "<self>",
@@ -965,7 +965,7 @@
   {
     "sid": 48,
     "output_tokens": [
-      "<self>",
+      "",
       "sil",
       "<self>",
       "<self>",
@@ -986,10 +986,10 @@
     "sid": 49,
     "output_tokens": [
       "<self>",
-      "<self>",
+      "",
       "<self>",
       "sil",
-      "<self>",
+      "",
       "sil",
       "<self>",
       "<self>",
@@ -1079,6 +1079,7 @@
     "output_tokens": [
       "<self>",
       "<self>",
+      "eighteen",
       "<self>",
       "<self>",
       "<self>",
@@ -1086,8 +1087,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
-      "<self>",
+      "sixteen",
       "<self>",
       "sil"
     ]
@@ -1095,9 +1095,9 @@
   {
     "sid": 55,
     "output_tokens": [
-      "<self>",
+      "",
       "sil",
-      "<self>",
+      "",
       "sil",
       "i s b n ",
       "<self>",
@@ -1153,16 +1153,16 @@
     "output_tokens": [
       "<self>",
       "<self>",
-      "<self>",
-      "<self>",
-      "sil",
-      "<self>",
-      "<self>",
-      "<self>",
+      "",
       "<self>",
       "sil",
       "<self>",
       "<self>",
+      "<self>",
+      "",
+      "sil",
+      "<self>",
+      "",
       "<self>",
       "sil"
     ]
@@ -1259,7 +1259,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "",
       "<self>",
       "<self>",
       "<self>",
@@ -1285,7 +1285,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "",
       "<self>",
       "sil",
       "<self>",
@@ -1301,10 +1301,10 @@
     "output_tokens": [
       "<self>",
       "<self>",
+      "",
       "<self>",
       "<self>",
-      "<self>",
-      "<self>",
+      "eighteen",
       "<self>",
       "<self>",
       "sil",
@@ -1374,7 +1374,7 @@
       "sil",
       "<self>",
       "sil",
-      "<self>",
+      "",
       "sil",
       "sil"
     ]
@@ -1461,7 +1461,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "three",
       "<self>",
       "<self>",
       "<self>",
@@ -1533,11 +1533,11 @@
     "output_tokens": [
       "<self>",
       "sil",
-      "<self>",
+      "",
       "sil",
       "<self>",
       "sil",
-      "<self>",
+      "",
       "sil"
     ]
   },
@@ -1575,7 +1575,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "",
       "a b c ",
       "<self>",
       "sil"
@@ -1613,10 +1613,10 @@
       "<self>",
       "<self>",
       "<self>",
+      "",
       "<self>",
       "<self>",
-      "<self>",
-      "<self>",
+      "six",
       "<self>",
       "sil"
     ]
@@ -1632,7 +1632,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "",
       "<self>",
       "<self>",
       "<self>",
@@ -1647,9 +1647,9 @@
       "<self>",
       "<self>",
       "<self>",
+      "",
       "<self>",
-      "<self>",
-      "<self>",
+      "",
       "sil"
     ]
   },
@@ -1687,7 +1687,7 @@
       "<self>",
       "<self>",
       "sil",
-      "<self>",
+      "",
       "sil",
       "sil"
     ]
@@ -1696,7 +1696,7 @@
     "sid": 86,
     "output_tokens": [
       "sil",
-      "<self>",
+      "",
       "<self>",
       "<self>",
       "<self>",
@@ -1719,7 +1719,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "",
       "<self>",
       "<self>",
       "<self>",
@@ -1796,11 +1796,11 @@
     "sid": 91,
     "output_tokens": [
       "<self>",
-      "<self>",
+      "",
       "sil",
       "<self>",
       "sil",
-      "<self>",
+      "",
       "sil"
     ]
   },
@@ -1875,7 +1875,7 @@
       "<self>",
       "<self>",
       "t v ",
-      "<self>",
+      "five",
       "sil",
       "p s t ",
       "sil",
@@ -1937,7 +1937,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "",
       "v f l ",
       "<self>",
       "sil"
@@ -1957,11 +1957,11 @@
       "<self>",
       "the third",
       "<self>",
-      "<self>",
+      "",
       "sil",
+      "",
       "<self>",
-      "<self>",
-      "<self>",
+      "",
       "sil"
     ]
   },
@@ -1972,7 +1972,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "",
       "<self>",
       "<self>",
       "<self>",
@@ -2029,7 +2029,7 @@
       "sil",
       "<self>",
       "sil",
-      "<self>",
+      "",
       "sil",
       "i s b n ",
       "<self>",
@@ -2082,7 +2082,7 @@
       "sil",
       "<self>",
       "sil",
-      "<self>",
+      "",
       "sil",
       "sil"
     ]
@@ -2131,9 +2131,9 @@
     "sid": 110,
     "output_tokens": [
       "i s b n ",
-      "<self>",
+      "",
       "sil",
-      "<self>",
+      "",
       "sil"
     ]
   },
@@ -2148,11 +2148,11 @@
       "<self>",
       "sil",
       "<self>",
+      "fifteen",
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
-      "<self>",
+      "six",
       "<self>",
       "<self>",
       "<self>",
@@ -2231,7 +2231,7 @@
   {
     "sid": 115,
     "output_tokens": [
-      "<self>",
+      "twenty",
       "sil",
       "<self>",
       "<self>",
@@ -2249,7 +2249,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "",
       "sil"
     ]
   },
@@ -2387,7 +2387,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "",
       "sil"
     ]
   },
@@ -2397,7 +2397,7 @@
       "sil",
       "<self>",
       "<self>",
-      "<self>",
+      "",
       "sil",
       "sil"
     ]
@@ -2423,7 +2423,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "six",
       "sil"
     ]
   },
@@ -2502,7 +2502,7 @@
       "<self>",
       "sil",
       "<self>",
-      "<self>",
+      "two",
       "sil",
       "<self>",
       "<self>",
@@ -2554,7 +2554,7 @@
       "<self>",
       "a r l h s ",
       "<self>",
-      "<self>",
+      "",
       "<self>",
       "<self>",
       "<self>",
@@ -2605,7 +2605,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "",
       "<self>",
       "sil",
       "sil"
@@ -2623,7 +2623,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "",
       "sil"
     ]
   },
@@ -2701,7 +2701,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "",
       "sil",
       "sil",
       "<self>",
@@ -2756,7 +2756,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "",
       "sil"
     ]
   },
@@ -2849,7 +2849,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "seventeen",
       "<self>",
       "sil",
       "<self>",
@@ -2874,7 +2874,7 @@
     "output_tokens": [
       "<self>",
       "<self>",
-      "<self>",
+      "",
       "<self>",
       "<self>",
       "sil",
@@ -2882,7 +2882,7 @@
       "sil",
       "sil",
       "<self>",
-      "<self>",
+      "",
       "sil",
       "<self>",
       "sil",
@@ -2903,7 +2903,7 @@
       "<self>",
       "sil",
       "c o o p r ",
-      "<self>",
+      "",
       "sil",
       "<self>",
       "c d ",
@@ -2952,7 +2952,7 @@
     "sid": 151,
     "output_tokens": [
       "<self>",
-      "<self>",
+      "",
       "sil",
       "<self>",
       "<self>",
@@ -3017,7 +3017,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "",
       "<self>",
       "<self>",
       "sil"
@@ -3088,7 +3088,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "five",
       "<self>",
       "<self>",
       "<self>",
@@ -3199,7 +3199,7 @@
       "sil",
       "<self>",
       "sil",
-      "<self>",
+      "four",
       "sil"
     ]
   },
@@ -3246,7 +3246,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "",
       "<self>",
       "sil",
       "<self>",
@@ -3340,7 +3340,7 @@
       "<self>",
       "<self>",
       "sil",
-      "<self>",
+      "",
       "sil",
       "sil",
       "sil"
@@ -3441,7 +3441,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "",
       "<self>",
       "sil",
       "<self>",
@@ -3534,9 +3534,9 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "",
       "sil",
-      "<self>",
+      "sixteen",
       "<self>",
       "<self>",
       "<self>",
@@ -3560,7 +3560,7 @@
       "sil",
       "<self>",
       "sil",
-      "<self>",
+      "",
       "<self>",
       "<self>",
       "<self>",
@@ -3571,7 +3571,7 @@
       "sil",
       "<self>",
       "<self>",
-      "<self>",
+      "six",
       "sil"
     ]
   },
@@ -3765,7 +3765,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "",
       "sil",
       "<self>",
       "<self>",
@@ -3890,7 +3890,7 @@
       "<self>",
       "<self>",
       "h c ",
-      "<self>",
+      "two",
       "sil",
       "sil"
     ]
@@ -3915,7 +3915,7 @@
     "output_tokens": [
       "<self>",
       "<self>",
-      "<self>",
+      "fifteen",
       "<self>",
       "<self>",
       "<self>",
@@ -3937,7 +3937,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "",
       "<self>",
       "sil",
       "i n e ",
@@ -3949,7 +3949,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "",
       "<self>",
       "sil"
     ]
@@ -3959,7 +3959,7 @@
     "output_tokens": [
       "<self>",
       "sil",
-      "<self>",
+      "",
       "sil",
       "i s b n ",
       "<self>",
@@ -3989,7 +3989,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "",
       "sil",
       "<self>",
       "<self>",
@@ -4018,12 +4018,12 @@
       "<self>",
       "<self>",
       "<self>",
+      "thirteen",
       "<self>",
       "<self>",
+      "",
       "<self>",
-      "<self>",
-      "<self>",
-      "<self>",
+      "",
       "<self>",
       "<self>",
       "<self>",
@@ -4050,14 +4050,14 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "",
       "sil",
       "<self>",
       "<self>",
       "<self>",
+      "",
       "<self>",
-      "<self>",
-      "<self>",
+      "twenty",
       "<self>",
       "<self>",
       "<self>",
@@ -4072,7 +4072,7 @@
       "<self>",
       "sil",
       "<self>",
-      "<self>",
+      "",
       "sil",
       "<self>",
       "<self>",
@@ -4087,7 +4087,7 @@
     "sid": 207,
     "output_tokens": [
       "<self>",
-      "<self>",
+      "",
       "<self>",
       "<self>",
       "<self>",
@@ -4133,7 +4133,7 @@
       "sil",
       "<self>",
       "sil",
-      "<self>",
+      "",
       "sil",
       "sil"
     ]
@@ -4158,7 +4158,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "fourteen",
       "<self>",
       "<self>",
       "<self>",
@@ -4183,7 +4183,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "",
       "sil"
     ]
   },
@@ -4191,9 +4191,9 @@
     "sid": 213,
     "output_tokens": [
       "<self>",
-      "<self>",
+      "",
       "sil",
-      "<self>",
+      "",
       "<self>",
       "<self>",
       "<self>",
@@ -4260,7 +4260,7 @@
       "6 4   m b ",
       "<self>",
       "g d d r ",
-      "<self>",
+      "three",
       "<self>",
       "sil"
     ]
@@ -4275,10 +4275,10 @@
       "<self>",
       "<self>",
       "p a ",
-      "<self>",
+      "",
       "sil",
       "p a ",
-      "<self>",
+      "",
       "sil",
       "<self>",
       "<self>",
@@ -4334,11 +4334,11 @@
       "<self>",
       "<self>",
       "<self>",
+      "",
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
-      "<self>",
+      "",
       "sil"
     ]
   },
@@ -4374,7 +4374,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "four",
       "<self>",
       "sil",
       "sil"
@@ -4436,7 +4436,7 @@
       "sil",
       "<self>",
       "sil",
-      "<self>",
+      "",
       "sil",
       "i s b n ",
       "<self>",
