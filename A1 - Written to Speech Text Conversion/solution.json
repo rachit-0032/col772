@@ -17,7 +17,7 @@
     "sid": 1,
     "output_tokens": [
       "i s b n ",
-      "<self>",
+      "one sil eight eight one o eight nine sil nine seven sil five",
       "<self>",
       "sil",
       "<self>",
@@ -242,7 +242,7 @@
     "sid": 13,
     "output_tokens": [
       "i s b n ",
-      "<self>",
+      "nine seven eight sil o sil three o four sil three five two five two sil four",
       "<self>",
       "sil",
       "<self>",
@@ -260,7 +260,7 @@
       "<self>",
       "sil",
       "<self>",
-      "<self>",
+      "one sil one sil two",
       "sil",
       "<self>",
       "sil",
@@ -579,7 +579,7 @@
       "<self>",
       "one thousand nine hundred seventy seven",
       "i s b n ",
-      "<self>",
+      "o sil eight three eight seven sil one nine seven two sil four",
       "<self>",
       "<self>",
       "sil",
@@ -732,7 +732,7 @@
       "<self>",
       "5 : 1 0 p m   p s t ",
       "sil",
-      "<self>",
+      "two o o eight sil o one sil o eight",
       "sil",
       "sil"
     ]
@@ -861,10 +861,10 @@
     "sid": 43,
     "output_tokens": [
       "i s b n ",
-      "<self>",
+      "one sil eight four one seven six sil three seven six sil four",
       "sil",
       "i s b n ",
-      "<self>",
+      "nine seven eight sil one sil eight four one seven six sil three seven six sil seven",
       "sil"
     ]
   },
@@ -1014,7 +1014,7 @@
     "sid": 50,
     "output_tokens": [
       "i s b n ",
-      "<self>",
+      "o sil six seven one sil two two five four two sil one",
       "<self>",
       "sil",
       "<self>",
@@ -1100,7 +1100,7 @@
       "two hundred twenty six",
       "sil",
       "i s b n ",
-      "<self>",
+      "o sil eight o three two sil eight seven four nine sil six",
       "<self>",
       "sil",
       "<self>",
@@ -1369,7 +1369,7 @@
     "sid": 69,
     "output_tokens": [
       "i s b n ",
-      "<self>",
+      "nine seven eight sil o sil two three o sil two two eight o eight sil five",
       "<self>",
       "sil",
       "<self>",
@@ -1545,7 +1545,7 @@
     "sid": 78,
     "output_tokens": [
       "i s b n ",
-      "<self>",
+      "one sil eight seven three six one six sil o two sil three",
       "<self>",
       "<self>",
       "sil",
@@ -1908,7 +1908,7 @@
       "<self>",
       "<self>",
       "i s b n ",
-      "<self>",
+      "o sil seven five o six sil o six two five sil eight",
       "sil",
       "<self>",
       "<self>",
@@ -2003,7 +2003,7 @@
     "sid": 102,
     "output_tokens": [
       "i s b n ",
-      "<self>",
+      "one sil five seven three nine two sil nine seven nine sil four",
       "<self>",
       "sil",
       "d j ",
@@ -2032,7 +2032,7 @@
       "two thousand three",
       "sil",
       "i s b n ",
-      "<self>",
+      "nine seven eight sil o seven five three five o eight two two o",
       "sil",
       "sil"
     ]
@@ -2050,9 +2050,9 @@
     "sid": 105,
     "output_tokens": [
       "i s b n ",
-      "<self>",
+      "eight one sil eight five o seven o sil seven nine sil two",
       "i s b n ",
-      "<self>",
+      "nine seven eight sil eight one sil eight five o seven o sil seven nine sil seven",
       "<self>",
       "sil",
       "<self>",
@@ -2690,7 +2690,7 @@
     "sid": 137,
     "output_tokens": [
       "i s b n ",
-      "<self>",
+      "o sil five two one sil four o o seven seven five",
       "sil"
     ]
   },
@@ -3428,7 +3428,7 @@
       "sil",
       "<self>",
       "i s b n ",
-      "<self>",
+      "eight four sil nine three three seven o two sil one sil five",
       "sil"
     ]
   },
@@ -3556,7 +3556,7 @@
     "sid": 180,
     "output_tokens": [
       "i s b n ",
-      "<self>",
+      "nine seven eight sil three sil nine three three three seven five sil o o sil one",
       "sil",
       "<self>",
       "sil",
@@ -3962,7 +3962,7 @@
       "one thousand nine hundred seventy two",
       "sil",
       "i s b n ",
-      "<self>",
+      "three sil seven eight eight five sil o o two three sil nine",
       "<self>",
       "<self>",
       "sil",
@@ -4027,7 +4027,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "two eight six sil two two o sil three",
       "<self>",
       "sil"
     ]
@@ -4036,7 +4036,7 @@
     "sid": 204,
     "output_tokens": [
       "i s b n ",
-      "<self>",
+      "three sil nine eight o six seven seven three sil four sil six",
       "sil"
     ]
   },
@@ -4142,10 +4142,10 @@
     "sid": 210,
     "output_tokens": [
       "i s b n ",
-      "<self>",
+      "o sil seven nine four six sil o four three five sil eight",
       "sil",
       "i s b n ",
-      "<self>",
+      "nine seven eight sil o sil seven nine four six sil o four three five sil six",
       "sil"
     ]
   },
@@ -4160,7 +4160,7 @@
       "<self>",
       "fourteen",
       "<self>",
-      "<self>",
+      "two o o nine sil o nine sil one o sil o three",
       "<self>",
       "sil",
       "sil"
@@ -4299,10 +4299,10 @@
       "sil",
       "sil",
       "i s b n ",
-      "<self>",
+      "five sil seven eight six seven sil o o six o sil seven",
       "sil",
       "i s b n ",
-      "<self>",
+      "five sil two two four sil o one three one eight sil six",
       "<self>",
       "<self>",
       "<self>",
@@ -4395,7 +4395,7 @@
       "sil",
       "<self>",
       "<self>",
-      "<self>",
+      "one sil seven sil eight",
       "<self>",
       "<self>",
       "sil"
@@ -4439,10 +4439,10 @@
       "one thousand nine hundred ninety five",
       "sil",
       "i s b n ",
-      "<self>",
+      "one sil eight nine eight o five one sil two two sil four",
       "sil",
       "i s b n ",
-      "<self>",
+      "nine seven eight sil one sil eight nine eight o five one sil two two sil o",
       "sil"
     ]
   },
