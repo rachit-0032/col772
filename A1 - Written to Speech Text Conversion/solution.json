@@ -291,9 +291,9 @@
       "ten",
       "<self>",
       "sil",
-      "",
+      "one thousand nine hundred eight miles",
       "sil",
-      "kilometer",
+      "three thousand seventy kilometer",
       "sil",
       "sil"
     ]
@@ -593,7 +593,7 @@
     "output_tokens": [
       "<self>",
       "<self>",
-      "<self>",
+      "one thousand six hundred eighty five",
       "<self>",
       "<self>",
       "<self>",
@@ -810,7 +810,7 @@
       "sil",
       "<self>",
       "<self>",
-      "<self>",
+      "twelve thousand",
       "<self>",
       "<self>",
       "twenty thirteen",
@@ -1430,7 +1430,7 @@
       "<self>",
       "twenty kilometer",
       "sil",
-      "twelve point four three",
+      "twelve point four three miles",
       "sil",
       "sil",
       "<self>",
@@ -1610,7 +1610,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "one thousand fifty four",
       "<self>",
       "<self>",
       "two hundred fifty three",
@@ -1635,7 +1635,7 @@
       "twenty eleven",
       "<self>",
       "<self>",
-      "<self>",
+      "four thousand seven hundred seventeen",
       "sil"
     ]
   },
@@ -1834,7 +1834,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "one thousand two hundred",
       "<self>",
       "<self>",
       "<self>",
@@ -1977,7 +1977,7 @@
       "sixty two point o",
       "<self>",
       "sil",
-      "millimeter",
+      "one thousand five hundred seventy millimeter",
       "sil",
       "<self>",
       "sil"
@@ -2771,10 +2771,10 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "two thousand five hundred eighty seven",
       "<self>",
       "sil",
-      "",
+      "one thousand forty seven",
       "sil",
       "<self>",
       "<self>",
@@ -2820,7 +2820,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "nine hundred thousand",
       "<self>",
       "<self>",
       "<self>",
@@ -3143,7 +3143,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "one thousand",
       "<self>",
       "<self>",
       "<self>",
@@ -3701,7 +3701,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "the twentieth of may NONE"
+      "the twentieth of may"
     ]
   },
   {
@@ -4092,7 +4092,7 @@
       "<self>",
       "nineteen kilometer",
       "sil",
-      "twelve",
+      "twelve miles",
       "sil"
     ]
   },
@@ -4244,7 +4244,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "fifty thousand",
       "<self>",
       "<self>",
       "sil"
