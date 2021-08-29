@@ -42,7 +42,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "four million euros",
       "sil",
       "<self>",
       "<self>",
@@ -50,7 +50,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "five point seven million euros",
       "sil"
     ]
   },
@@ -142,7 +142,7 @@
       "<self>",
       "<self>",
       "sil",
-      "<self>",
+      "ten million dollars",
       "<self>",
       "<self>",
       "sil"
@@ -357,9 +357,9 @@
       "<self>",
       "<self>",
       "<self>",
+      "thirty nine thousand eight hundred forty four dollars",
       "<self>",
-      "<self>",
-      "<self>",
+      "twenty one thousand seven hundred sixty one dollars",
       "<self>",
       "<self>",
       "sil"
@@ -458,7 +458,7 @@
       "<self>",
       "<self>",
       "sil",
-      "<self>",
+      "fifty thousand pounds",
       "sil",
       "<self>",
       "<self>",
@@ -665,7 +665,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "five hundred million pounds",
       "sil"
     ]
   },
@@ -687,7 +687,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "seven hundred fifty thousand dollars",
       "sil"
     ]
   },
@@ -879,7 +879,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "seven million dollars",
       "<self>",
       "<self>",
       "<self>",
@@ -1033,7 +1033,7 @@
     "sid": 51,
     "output_tokens": [
       "sil",
-      "<self>",
+      "thirty five million dollars",
       "<self>",
       "<self>",
       "<self>",
@@ -1228,7 +1228,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "nine hundred thousand dollars",
       "sil"
     ]
   },
@@ -1388,9 +1388,9 @@
       "<self>",
       "<self>",
       "<self>",
+      "forty nine thousand four hundred fifteen dollars",
       "<self>",
-      "<self>",
-      "<self>",
+      "thirty one thousand seven hundred forty three dollars",
       "<self>",
       "<self>",
       "sil"
@@ -1766,9 +1766,9 @@
       "<self>",
       "<self>",
       "<self>",
+      "thirty five thousand nine hundred seventy two dollars",
       "<self>",
-      "<self>",
-      "<self>",
+      "thirty one thousand two hundred fifty dollars",
       "<self>",
       "<self>",
       "sil"
@@ -2123,7 +2123,7 @@
       "<self>",
       "c d p",
       "<self>",
-      "<self>",
+      "twelve thousand two hundred eighty six dollars",
       "sil"
     ]
   },
@@ -2259,7 +2259,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "four hundred dollars",
       "<self>",
       "<self>",
       "<self>",
@@ -3212,9 +3212,9 @@
       "<self>",
       "<self>",
       "<self>",
+      "twenty seven thousand eighty three dollars",
       "<self>",
-      "<self>",
-      "<self>",
+      "sixteen thousand eight hundred seventy five dollars",
       "<self>",
       "<self>",
       "sil"
@@ -3274,9 +3274,9 @@
       "<self>",
       "<self>",
       "<self>",
+      "twenty seven thousand one hundred forty three dollars",
       "<self>",
-      "<self>",
-      "<self>",
+      "twenty thousand six hundred ninety four dollars",
       "<self>",
       "<self>",
       "sil"
@@ -3482,7 +3482,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "three hundred million pounds",
       "<self>",
       "<self>",
       "<self>",
@@ -3598,7 +3598,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "eleven thousand two hundred sixty two dollars",
       "sil"
     ]
   },
@@ -3609,7 +3609,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "one point two million dollars",
       "<self>",
       "<self>",
       "<self>",
@@ -3747,7 +3747,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "ten thousand dollars",
       "<self>",
       "sil"
     ]
@@ -3899,7 +3899,7 @@
     "sid": 197,
     "output_tokens": [
       "sil",
-      "<self>",
+      "two hundred fifty million dollars",
       "<self>",
       "<self>",
       "<self>",
@@ -4419,7 +4419,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "four million five hundred thousand dollars",
       "sil"
     ]
   },
