@@ -35,7 +35,7 @@
     "sid": 2,
     "output_tokens": [
       "<self>",
-      "fourteen two thousand fourteen",
+      "the fourteenth of june twenty fourteen",
       "<self>",
       "<self>",
       "<self>",
@@ -58,12 +58,12 @@
     "sid": 3,
     "output_tokens": [
       "<self>",
-      "twenty one two thousand thirteen",
+      "the twenty first of may twenty thirteen",
       "<self>",
       "<self>",
       "<self>",
       "sil",
-      "eight one thousand nine hundred ninety six",
+      "the eighth of march nineteen ninety six",
       "sil",
       "<self>",
       "<self>",
@@ -108,7 +108,7 @@
     "sid": 6,
     "output_tokens": [
       "<self>",
-      "twenty two thousand ten",
+      "the twentieth of january twenty ten",
       "sil"
     ]
   },
@@ -506,7 +506,7 @@
       "sil",
       "<self>",
       "sil",
-      "<self>",
+      "october twenty first twenty fifteen",
       "sil",
       "sil"
     ]
@@ -729,10 +729,10 @@
   {
     "sid": 37,
     "output_tokens": [
-      "<self>",
+      "january fourteenth two thousand eight",
       "",
       "sil",
-      "two o o eight sil o one sil o eight",
+      null,
       "sil",
       "sil"
     ]
@@ -1218,7 +1218,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "november nineteen eighty three",
       "sil",
       "<self>",
       "<self>",
@@ -1328,7 +1328,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "ten one thousand nine hundred forty one",
+      "the tenth of october nineteen forty one",
       "sil",
       "<self>",
       "<self>",
@@ -1336,7 +1336,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "february nineteen forty four",
       "sil"
     ]
   },
@@ -1552,7 +1552,7 @@
       "<self>",
       "<self>",
       "sil",
-      "twenty two two thousand eleven",
+      "the twenty second of september twenty eleven",
       "sil",
       "sil"
     ]
@@ -1713,7 +1713,7 @@
     "sid": 87,
     "output_tokens": [
       "<self>",
-      "<self>",
+      "october first twenty eleven",
       "sil",
       "<self>",
       "<self>",
@@ -2008,7 +2008,7 @@
       "sil",
       "d j",
       "sil",
-      "<self>",
+      "march twenty eleven",
       "sil",
       "sil"
     ]
@@ -2061,7 +2061,7 @@
       "sil",
       "<self>",
       "sil",
-      "<self>",
+      "june two thousand five",
       "sil",
       "sil"
     ]
@@ -2070,7 +2070,7 @@
     "sid": 106,
     "output_tokens": [
       "<self>",
-      "one two thousand eight",
+      "the first of february two thousand eight",
       "sil"
     ]
   },
@@ -2306,7 +2306,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "may twenty eighth nineteen forty eight",
       "sil",
       "<self>",
       "<self>",
@@ -2354,7 +2354,7 @@
     "sid": 121,
     "output_tokens": [
       "<self>",
-      "twenty two thousand fourteenth",
+      null,
       "sil",
       "<self>",
       "<self>",
@@ -2865,7 +2865,7 @@
     "sid": 146,
     "output_tokens": [
       "<self>",
-      "<self>",
+      "may twenty ninth twenty thirteen",
       "sil"
     ]
   },
@@ -3113,7 +3113,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "august seventeenth",
       "sil",
       "<self>",
       "<self>",
@@ -3124,7 +3124,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "august seventeenth",
       "sil",
       "<self>",
       "<self>",
@@ -3195,7 +3195,7 @@
       "<self>",
       "<self>",
       "sil",
-      "twenty seven one thousand nine hundred eighty two",
+      "the twenty seventh of march nineteen eighty two",
       "sil",
       "<self>",
       "sil",
@@ -3688,7 +3688,7 @@
   {
     "sid": 187,
     "output_tokens": [
-      "fourteen",
+      "the fourteenth of may",
       "sil",
       "<self>",
       "<self>",
@@ -3701,7 +3701,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "twenty"
+      "the twentieth of may NONE"
     ]
   },
   {
@@ -3872,7 +3872,7 @@
     "sid": 195,
     "output_tokens": [
       "<self>",
-      "<self>",
+      "november twentieth twenty thirteen",
       "sil"
     ]
   },
@@ -3927,7 +3927,7 @@
       "<self>",
       "<self>",
       "sil",
-      "twelve two thousand six",
+      "the twelveth of july two thousand six",
       "sil"
     ]
   },
@@ -4459,7 +4459,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "<self>",
+      "september two thousand eight",
       "sil"
     ]
   }
