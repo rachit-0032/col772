@@ -665,7 +665,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "five hundred meter pounds",
+      "five hundred million pounds",
       "sil"
     ]
   },
@@ -732,7 +732,7 @@
       "january fourteenth two thousand eight",
       "five ten p m p s t",
       "sil",
-      null,
+      "the eighth of january two thousand eight",
       "sil",
       "sil"
     ]
@@ -1033,7 +1033,7 @@
     "sid": 51,
     "output_tokens": [
       "sil",
-      "thirty five meter dollars",
+      "thirty five million dollars",
       "<self>",
       "<self>",
       "<self>",
@@ -1404,7 +1404,7 @@
       "<self>",
       "<self>",
       "<self>",
-      "nine p ms",
+      "nine p m",
       "<self>",
       "<self>",
       "<self>",
@@ -1449,7 +1449,7 @@
     "sid": 73,
     "output_tokens": [
       "<self>",
-      "fifty three",
+      "five fifty three",
       "sil",
       "<self>",
       "<self>",
