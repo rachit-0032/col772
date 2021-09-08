@@ -1035,9 +1035,9 @@ def solution(input_tokens):
         if not flag:
             sol.append('<self>')
 
-    prev_token = token          # prev_token is used to has information about the just previous token and this information can extensively be used for ISBN codes
-    flag = False                # preparing for the next iteration.
-    # left_is_isbn = False        
+        prev_token = token          # prev_token is used to has information about the just previous token and this information can extensively be used for ISBN codes
+        flag = False                # preparing for the next iteration.
+        # left_is_isbn = False        
 
     return sol
 
@@ -1046,7 +1046,7 @@ def solution_dump(solution_file_path):
   solution_data = []
   for input_sentence in input_data:
     solution_sid = input_sentence['sid']
-    # print(solution_sid)
+    print(solution_sid)
     solution_tokens = solution(input_sentence['input_tokens'])
     solution_data.append({'sid':solution_sid,
                           'output_tokens':solution_tokens})
