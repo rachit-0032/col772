@@ -12,12 +12,7 @@ import re
 with open('assignment_1_data/input.json','r', encoding='utf8') as input_file:
   input_data = json.load(input_file)
   input_file.close()
-
-## Importing output data.
-with open('assignment_1_data/output.json','r', encoding='utf8') as output_file:
-  output_data = json.load(output_file)
-  output_file.close()
-
+  
 
 # ------------------------------------
 # Defining some Dictionaries
