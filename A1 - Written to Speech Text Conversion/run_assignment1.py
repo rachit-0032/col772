@@ -1,3 +1,6 @@
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
+
 # Rachit Jain | 2018ME10032 | COL772 | A1 | Prof. Mausam | Deadline: 11th September 2021
 # Creating a rule-based model used to convert written speech to spoken text
 
@@ -5,14 +8,7 @@
 ## Importing necessary libraries
 import json
 import re
-
-# Importing Datasets
-
-## Importing input data.
-with open('assignment_1_data/input.json','r', encoding='utf8') as input_file:
-  input_data = json.load(input_file)
-  input_file.close()
-  
+import argparse
 
 # ------------------------------------
 # Defining some Dictionaries
@@ -1037,11 +1033,11 @@ def solution(input_tokens):
     return sol
 
 ## Saves the solutions in a the file name sent as input argument
-def solution_dump(solution_file_path):
+def solution_dump(input_data, solution_file_path):
   solution_data = []
   for input_sentence in input_data:
     solution_sid = input_sentence['sid']
-    print(solution_sid)
+    # print(solution_sid)
     solution_tokens = solution(input_sentence['input_tokens'])
     solution_data.append({'sid':solution_sid,
                           'output_tokens':solution_tokens})
@@ -1050,7 +1046,21 @@ def solution_dump(solution_file_path):
     json.dump(solution_data, solution_file, indent=2, ensure_ascii=False)
     solution_file.close()
 
-## Saving the outputs to this file
-solution_dump('solution.json')
 
+if __name__ == '__main__':
+    ## Argument Parser
+    arg_parser = argparse.ArgumentParser()
+    arg_parser.add_argument('--input_path', required=True, help='Input File Path')
+    arg_parser.add_argument('--solution_path', required=True, help='Solution File Path')
 
+    args = arg_parser.parse_args()
+
+    # Importing Datasets
+
+    ## Importing input data.
+    with open(args.input_path, 'r', encoding='utf-8') as input_file:
+        input_data = json.load(input_file)
+        input_file.close()
+
+    ## Saving the outputs to this file
+    solution_dump(input_data, args.solution_path)
