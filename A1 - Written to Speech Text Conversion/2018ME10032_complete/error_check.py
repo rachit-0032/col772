@@ -30,7 +30,9 @@ def error_calculator(output_data, solution_data):
         error_list[res_sid] = percentage_error
         count = 0
 
-    error_list['total'] = total_perc_error/len(error_list)
+    final_error = total_perc_error/len(error_list)
+    error_list['total'] = final_error
+    print("Total Error: ", final_error)
     return error_list
 
 

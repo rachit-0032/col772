@@ -10,6 +10,35 @@ import json
 import re
 import argparse
 
+
+# ------------------------------------
+# Reading Command Line Inputs (CLI)
+# ------------------------------------
+
+def read_cli():
+
+    ## Argument Parser.
+    parser = argparse.ArgumentParser(description='Code Run.')
+    
+    ## Input File.
+    parser.add_argument(
+        '--input_path',
+        help='Input File Path', 
+        required=True, type=str, default='input.json'
+    )
+
+    ## Solution File.
+    parser.add_argument(
+        '--solution_path', 
+        help='Solution File Path',
+        required=True, type=str, default='solution.json'
+    )
+
+    args = parser.parse_args()
+
+    return args
+
+
 # ------------------------------------
 # Defining some Dictionaries
 # ------------------------------------
@@ -1048,14 +1077,9 @@ def solution_dump(input_data, solution_file_path):
 
 
 if __name__ == '__main__':
+
     ## Argument Parser
-    arg_parser = argparse.ArgumentParser()
-    arg_parser.add_argument('--input_path', required=True, help='Input File Path')
-    arg_parser.add_argument('--solution_path', required=True, help='Solution File Path')
-
-    args = arg_parser.parse_args()
-
-    # Importing Datasets
+    args = read_cli()
 
     ## Importing input data.
     with open(args.input_path, 'r', encoding='utf-8') as input_file:
