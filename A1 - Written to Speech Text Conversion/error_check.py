@@ -6,16 +6,7 @@
 
 ## Importing necessary libraries
 import json
-
-## Importing output data.
-with open('assignment_1_data/output.json','r', encoding='utf8') as output_file:
-  output_data = json.load(output_file)
-  output_file.close()
-
-## Importing the file that contained results we created using our code.
-with open('solution.json','r', encoding='utf-8') as solution_file:
-  solution_data = json.load(solution_file)
-  solution_file.close()
+import argparse
 
 
 ## Returns a dictionary mapping every SID with its corresponding error percentage
@@ -43,11 +34,32 @@ def error_calculator(output_data, solution_data):
     return error_list
 
 
-## Running the error calculator.
-error_list = error_calculator(output_data, solution_data)
 
-## Saving the errors in a file.
-with open('error_list.json','w') as error_file:
-    json.dump(error_list, error_file, indent=2, ensure_ascii=False)
-    error_file.close()
+if __name__ == '__main__':
 
+    ## Argument Parser
+    arg_parser = argparse.ArgumentParser()
+    arg_parser.add_argument('--ground_truth_path', required=True, help='Ground Truth Labeled File Path')
+    arg_parser.add_argument('--solution_path', required=True, help='Solution File Path')
+    arg_parser.add_argument('--error_path', required=True, help='Error File Path')
+
+    args = arg_parser.parse_args()
+
+
+    ## Importing output data.
+    with open(args.ground_truth_path,'r', encoding='utf8') as output_file:
+        output_data = json.load(output_file)
+        output_file.close()
+
+    ## Importing the file that contained results we created using our code.
+    with open(args.solution_path,'r', encoding='utf-8') as solution_file:
+        solution_data = json.load(solution_file)
+        solution_file.close()
+
+    ## Running the error calculator.
+    error_list = error_calculator(output_data, solution_data)
+
+    ## Saving the errors in a file.
+    with open(args.error_path,'w') as error_file:
+        json.dump(error_list, error_file, indent=2, ensure_ascii=False)
+        error_file.close()
