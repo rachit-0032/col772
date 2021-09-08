@@ -34,7 +34,6 @@ def error_calculator(output_data, solution_data):
     return error_list
 
 
-
 if __name__ == '__main__':
 
     ## Argument Parser
