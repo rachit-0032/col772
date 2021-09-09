@@ -1,0 +1,4466 @@
+[
+  {
+    "sid": 0,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "one hundred",
+      "<self>",
+      "<self>",
+      "<self>",
+      "ninety point zero",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 1,
+    "output_tokens": [
+      "i s b n",
+      "one sil eight eight one o eight nine sil nine seven sil five",
+      "<self>",
+      "sil",
+      "<self>",
+      "sil",
+      "<self>",
+      "sil",
+      "<self>",
+      "sil",
+      "nineteen eighty one",
+      "sil",
+      "sil"
+    ]
+  },
+  {
+    "sid": 2,
+    "output_tokens": [
+      "<self>",
+      "the fourteenth of june twenty fourteen",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "four million euros",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "five point seven million euros",
+      "sil"
+    ]
+  },
+  {
+    "sid": 3,
+    "output_tokens": [
+      "<self>",
+      "the twenty first of may twenty thirteen",
+      "<self>",
+      "<self>",
+      "seventeen ninety sixths",
+      "sil",
+      "the eighth of march nineteen ninety six",
+      "sil",
+      "<self>",
+      "<self>",
+      "sil",
+      "sil"
+    ]
+  },
+  {
+    "sid": 4,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 5,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 6,
+    "output_tokens": [
+      "<self>",
+      "the twentieth of january twenty ten",
+      "sil"
+    ]
+  },
+  {
+    "sid": 7,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "eighteen",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "seven per square kilometers",
+      "sil",
+      "sil"
+    ]
+  },
+  {
+    "sid": 8,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "two thousand six",
+      "sil",
+      "seven",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "ten million dollars",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 9,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "ninety nine point o five percent",
+      "<self>",
+      "sil",
+      "zero point three two percent",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "zero point six three percent",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 10,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "seven two hundred eighty thirds",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "two hundred twenty seven",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 11,
+    "output_tokens": [
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "the fourth",
+      "sil",
+      "<self>",
+      "<self>",
+      "sil",
+      "eleven",
+      "sil"
+    ]
+  },
+  {
+    "sid": 12,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "eighteen seventy three",
+      "sil"
+    ]
+  },
+  {
+    "sid": 13,
+    "output_tokens": [
+      "i s b n",
+      "nine seven eight sil o sil three o four sil three five two five two sil four",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "sil",
+      "twenty ten",
+      "sil",
+      "sil"
+    ]
+  },
+  {
+    "sid": 14,
+    "output_tokens": [
+      "sil",
+      "<self>",
+      "sil",
+      "<self>",
+      "one and a half",
+      "sil",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "sil",
+      "sil"
+    ]
+  },
+  {
+    "sid": 15,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "eleven",
+      "<self>",
+      "<self>",
+      "ten",
+      "<self>",
+      "sil",
+      "one thousand nine hundred eight miles",
+      "sil",
+      "three thousand seventy kilometers",
+      "sil",
+      "sil"
+    ]
+  },
+  {
+    "sid": 16,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "four thirty eighths",
+      "<self>",
+      "<self>",
+      "thirty four",
+      "<self>",
+      "<self>",
+      "<self>",
+      "forty eight",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "seven eighty sixths",
+      "sil"
+    ]
+  },
+  {
+    "sid": 17,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "one thirty four",
+      "<self>",
+      "<self>",
+      "one",
+      "sil"
+    ]
+  },
+  {
+    "sid": 18,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "thirty nine thousand eight hundred forty four dollars",
+      "<self>",
+      "twenty one thousand seven hundred sixty one dollars",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 19,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "fifty seven percent",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 20,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "fourth",
+      "<self>",
+      "two thousand seven",
+      "<self>",
+      "<self>",
+      "eighth",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 21,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "tenth",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 22,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "twenty eleven",
+      "sil",
+      "sil"
+    ]
+  },
+  {
+    "sid": 23,
+    "output_tokens": [
+      "<self>",
+      "two fifty p m",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 24,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "fifty thousand pounds",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "n a c",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "nineteen ninety nine",
+      "sil"
+    ]
+  },
+  {
+    "sid": 25,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 26,
+    "output_tokens": [
+      "<self>",
+      "sil",
+      "<self>",
+      "sil",
+      "october twenty first twenty fifteen",
+      "sil",
+      "sil"
+    ]
+  },
+  {
+    "sid": 27,
+    "output_tokens": [
+      "<self>",
+      "thirty fourth",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sixty seventh",
+      "<self>",
+      "sixty eighth",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "thirty fourth",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 28,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "nine hundred seventeen twentieths",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 29,
+    "output_tokens": [
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "nineteen seventy seven",
+      "i s b n",
+      "o sil eight three eight seven sil one nine seven two sil four",
+      "<self>",
+      "<self>",
+      "sil",
+      "two thousand five",
+      "sil",
+      "sil"
+    ]
+  },
+  {
+    "sid": 30,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "one thousand six hundred eighty five",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "five hundred sixty eight point two",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "two hundred nineteen point four per square kilometers",
+      "sil",
+      "sil"
+    ]
+  },
+  {
+    "sid": 31,
+    "output_tokens": [
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 32,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 33,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "five hundred million pounds",
+      "sil"
+    ]
+  },
+  {
+    "sid": 34,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "two thousand six",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "seven hundred fifty thousand dollars",
+      "sil"
+    ]
+  },
+  {
+    "sid": 35,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "fifteen ninety nine",
+      "<self>",
+      "sixteen o one",
+      "sil"
+    ]
+  },
+  {
+    "sid": 36,
+    "output_tokens": [
+      "<self>",
+      "sil",
+      "three point one four",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 37,
+    "output_tokens": [
+      "january fourteenth two thousand eight",
+      "five ten p m p s t",
+      "sil",
+      "the eighth of january two thousand eight",
+      "sil",
+      "sil"
+    ]
+  },
+  {
+    "sid": 38,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "nineteenth",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 39,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "the second",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "sil",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "d n a",
+      "sil"
+    ]
+  },
+  {
+    "sid": 40,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "twenty ten",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "twelve thousand",
+      "<self>",
+      "<self>",
+      "twenty thirteen",
+      "sil"
+    ]
+  },
+  {
+    "sid": 41,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "one hundred fifty eight",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "four hundred sixty four point seven",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "one hundred seventy nine point four per square kilometers",
+      "sil",
+      "sil"
+    ]
+  },
+  {
+    "sid": 42,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "ninety seven percent",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 43,
+    "output_tokens": [
+      "i s b n",
+      "one sil eight four one seven six sil three seven six sil four",
+      "sil",
+      "i s b n",
+      "nine seven eight sil one sil eight four one seven six sil three seven six sil seven",
+      "sil"
+    ]
+  },
+  {
+    "sid": 44,
+    "output_tokens": [
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "seven million dollars",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "sil"
+    ]
+  },
+  {
+    "sid": 45,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "d b l",
+      "<self>",
+      "<self>",
+      "nine",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 46,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "sil",
+      "<self>",
+      "sil",
+      "<self>",
+      "sil",
+      "<self>",
+      "two",
+      "<self>",
+      "twenty three twenty one",
+      "minus twenty two",
+      "sil",
+      "<self>",
+      "<self>",
+      "k j v",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 47,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "three hundred sixty seven sixths",
+      "b c",
+      "sil"
+    ]
+  },
+  {
+    "sid": 48,
+    "output_tokens": [
+      "nineteen seventy three",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "fourteenth",
+      "u s",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 49,
+    "output_tokens": [
+      "<self>",
+      "nineteen eighty four",
+      "<self>",
+      "sil",
+      "eighty five",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "the seventh",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 50,
+    "output_tokens": [
+      "i s b n",
+      "o sil six seven one sil two two five four two sil one",
+      "<self>",
+      "sil",
+      "<self>",
+      "s",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 51,
+    "output_tokens": [
+      "sil",
+      "thirty five million dollars",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "sil"
+    ]
+  },
+  {
+    "sid": 52,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 53,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 54,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "eighteen",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sixteen",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 55,
+    "output_tokens": [
+      "two hundred twenty",
+      "sil",
+      "two hundred twenty six",
+      "sil",
+      "i s b n",
+      "o sil eight o three two sil eight seven four nine sil six",
+      "<self>",
+      "sil",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 56,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "nine a m",
+      "<self>",
+      "five p m",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 57,
+    "output_tokens": [
+      "sil",
+      "<self>",
+      "t n a",
+      "<self>",
+      "<self>",
+      "six twenty fourths",
+      "sil",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "t v",
+      "<self>",
+      "sil",
+      "sil"
+    ]
+  },
+  {
+    "sid": 58,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "two thousand six",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "one hundred nine",
+      "sil",
+      "<self>",
+      "twenty three",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 59,
+    "output_tokens": [
+      "sil",
+      "<self>",
+      "ten twenty three",
+      "<self>",
+      "sil",
+      "sil"
+    ]
+  },
+  {
+    "sid": 60,
+    "output_tokens": [
+      "b m c",
+      "<self>",
+      "<self>",
+      "three forty three",
+      "sil"
+    ]
+  },
+  {
+    "sid": 61,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "two point six two",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "two point nine five",
+      "sil"
+    ]
+  },
+  {
+    "sid": 62,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "november nineteen eighty three",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "nine hundred thousand dollars",
+      "sil"
+    ]
+  },
+  {
+    "sid": 63,
+    "output_tokens": [
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "four twentieths",
+      "sil",
+      "sil",
+      "sil"
+    ]
+  },
+  {
+    "sid": 64,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "two thousand seven",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 65,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "fifty",
+      "<self>",
+      "sil",
+      "fifteen meters",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 66,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "one hundred",
+      "<self>",
+      "<self>",
+      "eighteen",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "one hundred two point one",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 67,
+    "output_tokens": [
+      "<self>",
+      "fifth",
+      "<self>",
+      "sil",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "the tenth of october nineteen forty one",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "february nineteen forty four",
+      "sil"
+    ]
+  },
+  {
+    "sid": 68,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "s b h s s",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 69,
+    "output_tokens": [
+      "i s b n",
+      "nine seven eight sil o sil two three o sil two two eight o eight sil five",
+      "<self>",
+      "sil",
+      "<self>",
+      "sil",
+      "two thousand one",
+      "sil",
+      "sil"
+    ]
+  },
+  {
+    "sid": 70,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "forty nine thousand four hundred fifteen dollars",
+      "<self>",
+      "thirty one thousand seven hundred forty three dollars",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 71,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "nine p m",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "five thirty a m",
+      "sil"
+    ]
+  },
+  {
+    "sid": 72,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "twenty kilometers",
+      "sil",
+      "twelve point four three miles",
+      "sil",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 73,
+    "output_tokens": [
+      "<self>",
+      "five fifty three",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "three",
+      "sixty four",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 74,
+    "output_tokens": [
+      "three hundred thirty nine three hundred fortieths",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>"
+    ]
+  },
+  {
+    "sid": 75,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "five point six five",
+      "<self>",
+      "<self>",
+      "sil",
+      "fourteen point six square kilometers",
+      "sil",
+      "sil"
+    ]
+  },
+  {
+    "sid": 76,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "six eighths",
+      "<self>",
+      "twelve eighths",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 77,
+    "output_tokens": [
+      "<self>",
+      "sil",
+      "nineteen twenty nine",
+      "sil",
+      "<self>",
+      "sil",
+      "forty seven",
+      "sil"
+    ]
+  },
+  {
+    "sid": 78,
+    "output_tokens": [
+      "i s b n",
+      "one sil eight seven three six one six sil o two sil three",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "sil",
+      "the twenty second of september twenty eleven",
+      "sil",
+      "sil"
+    ]
+  },
+  {
+    "sid": 79,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "seven hundred seventy four",
+      "a b c",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 80,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 81,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "one thousand fifty four",
+      "<self>",
+      "<self>",
+      "two hundred fifty three",
+      "<self>",
+      "<self>",
+      "six",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 82,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "twenty eleven",
+      "<self>",
+      "<self>",
+      "four thousand seven hundred seventeen",
+      "sil"
+    ]
+  },
+  {
+    "sid": 83,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "nineteen eighty",
+      "<self>",
+      "nineteen ninety",
+      "sil"
+    ]
+  },
+  {
+    "sid": 84,
+    "output_tokens": [
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "sil"
+    ]
+  },
+  {
+    "sid": 85,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "twenty one",
+      "<self>",
+      "twenty first",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "eighteen seventy eight",
+      "sil",
+      "sil"
+    ]
+  },
+  {
+    "sid": 86,
+    "output_tokens": [
+      "sil",
+      "twenty fourteen",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "six point six",
+      "<self>",
+      "sil",
+      "sil"
+    ]
+  },
+  {
+    "sid": 87,
+    "output_tokens": [
+      "<self>",
+      "october first twenty eleven",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "twenty eleven",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "sil",
+      "u k",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 88,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "fourth",
+      "sil",
+      "seventh",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 89,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "thirty five thousand nine hundred seventy two dollars",
+      "<self>",
+      "thirty one thousand two hundred fifty dollars",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 90,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "one thousand five hundred sixty five point zero",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "six hundred four point two per square kilometers",
+      "sil",
+      "sil"
+    ]
+  },
+  {
+    "sid": 91,
+    "output_tokens": [
+      "<self>",
+      "two thousand two",
+      "sil",
+      "<self>",
+      "sil",
+      "thirty seven",
+      "sil"
+    ]
+  },
+  {
+    "sid": 92,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "four fifty six",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 93,
+    "output_tokens": [
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "one thousand two hundred",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 94,
+    "output_tokens": [
+      "four sixteen",
+      "sil",
+      "sil",
+      "n t a p o",
+      "sil",
+      "two point four four",
+      "sil",
+      "sil",
+      "sil"
+    ]
+  },
+  {
+    "sid": 95,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "t v",
+      "<self>",
+      "seven p m",
+      "sil",
+      "p s t",
+      "sil",
+      "<self>",
+      "eleven p m",
+      "<self>",
+      "t v",
+      "five",
+      "sil",
+      "p s t",
+      "sil",
+      "sil"
+    ]
+  },
+  {
+    "sid": 96,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "i a t a",
+      "sil",
+      "sil"
+    ]
+  },
+  {
+    "sid": 97,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "i s b n",
+      "o sil seven five o six sil o six two five sil eight",
+      "sil",
+      "<self>",
+      "<self>",
+      "sil",
+      "sil"
+    ]
+  },
+  {
+    "sid": 98,
+    "output_tokens": [
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "nineteen fifty",
+      "v f l",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 99,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "the third",
+      "<self>",
+      "eleven ninety eight",
+      "sil",
+      "twelve hundred",
+      "<self>",
+      "twelve o one",
+      "sil"
+    ]
+  },
+  {
+    "sid": 100,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "nineteen sixty seven",
+      "<self>",
+      "sixty two point zero",
+      "<self>",
+      "sil",
+      "one thousand five hundred seventy millimeters",
+      "sil",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 101,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "thirty eight percent",
+      "sil"
+    ]
+  },
+  {
+    "sid": 102,
+    "output_tokens": [
+      "i s b n",
+      "one sil five seven three nine two sil nine seven nine sil four",
+      "<self>",
+      "sil",
+      "d j",
+      "sil",
+      "march twenty eleven",
+      "sil",
+      "sil"
+    ]
+  },
+  {
+    "sid": 103,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "sil",
+      "two thousand three",
+      "sil",
+      "i s b n",
+      "nine seven eight sil o seven five three five o eight two two o",
+      "sil",
+      "sil"
+    ]
+  },
+  {
+    "sid": 104,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "s h p o",
+      "sil"
+    ]
+  },
+  {
+    "sid": 105,
+    "output_tokens": [
+      "i s b n",
+      "eight one sil eight five o seven o sil seven nine sil two",
+      "i s b n",
+      "nine seven eight sil eight one sil eight five o seven o sil seven nine sil seven",
+      "<self>",
+      "sil",
+      "<self>",
+      "sil",
+      "<self>",
+      "sil",
+      "<self>",
+      "sil",
+      "june two thousand five",
+      "sil",
+      "sil"
+    ]
+  },
+  {
+    "sid": 106,
+    "output_tokens": [
+      "<self>",
+      "the first of february two thousand eight",
+      "sil"
+    ]
+  },
+  {
+    "sid": 107,
+    "output_tokens": [
+      "one o six sil two o o three sil two o three sil two one four",
+      "<self>",
+      "sil",
+      "g n",
+      "sil",
+      "two thousand five",
+      "sil",
+      "sil"
+    ]
+  },
+  {
+    "sid": 108,
+    "output_tokens": [
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "fourteen forty five",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "eleven fifty five",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 109,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "c d p",
+      "<self>",
+      "twelve thousand two hundred eighty six dollars",
+      "sil"
+    ]
+  },
+  {
+    "sid": 110,
+    "output_tokens": [
+      "i s b n",
+      "o two five two o seven six seven two nine",
+      "sil",
+      "nine trillion seven hundred eighty billion two hundred fifty two million seventy six thousand seven hundred twenty five",
+      "sil"
+    ]
+  },
+  {
+    "sid": 111,
+    "output_tokens": [
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "fifteen",
+      "<self>",
+      "<self>",
+      "<self>",
+      "six",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 112,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "sil",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 113,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "twenty eighth",
+      "sil",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "fourth",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 114,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "nineteenth",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 115,
+    "output_tokens": [
+      "twenty",
+      "sil",
+      "<self>",
+      "<self>",
+      "the fourth",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "eighteen o six",
+      "sil"
+    ]
+  },
+  {
+    "sid": 116,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "four hundred dollars",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 117,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "nineteen forties",
+      "sil"
+    ]
+  },
+  {
+    "sid": 118,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "nineteen hundred",
+      "<self>",
+      "may twenty eighth nineteen forty eight",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 119,
+    "output_tokens": [
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "one thousand crore rupees",
+      "sil",
+      "sil"
+    ]
+  },
+  {
+    "sid": 120,
+    "output_tokens": [
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 121,
+    "output_tokens": [
+      "<self>",
+      "july second twenty fourteen",
+      "sil",
+      "<self>",
+      "m",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 122,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "the eighth",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "eighteen sixty seven",
+      "sil"
+    ]
+  },
+  {
+    "sid": 123,
+    "output_tokens": [
+      "sil",
+      "<self>",
+      "<self>",
+      "ninety seven",
+      "sil",
+      "sil"
+    ]
+  },
+  {
+    "sid": 124,
+    "output_tokens": [
+      "h m g s",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "six",
+      "sil"
+    ]
+  },
+  {
+    "sid": 125,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 126,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "three percent",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 127,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "eleven centimeters",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sixteen centimeters",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 128,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "two",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 129,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "i g n",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "eight point five",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 130,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "a r l h s",
+      "u s a",
+      "one hundred fifty six",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "w l o l",
+      "sil",
+      "sil"
+    ]
+  },
+  {
+    "sid": 131,
+    "output_tokens": [
+      "<self>",
+      "fourth",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "fifth",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 132,
+    "output_tokens": [
+      "sil",
+      "<self>",
+      "<self>",
+      "one hundred meters",
+      "<self>",
+      "thirty seven",
+      "<self>",
+      "sil",
+      "sil"
+    ]
+  },
+  {
+    "sid": 133,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "nineteen forty",
+      "sil"
+    ]
+  },
+  {
+    "sid": 134,
+    "output_tokens": [
+      "sil",
+      "<self>",
+      "sil",
+      "j a s b u g",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "sil"
+    ]
+  },
+  {
+    "sid": 135,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 136,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "nine thirty",
+      "<self>",
+      "eleven a m",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "nine thirty",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 137,
+    "output_tokens": [
+      "i s b n",
+      "o sil five two one sil four o o seven seven five",
+      "sil"
+    ]
+  },
+  {
+    "sid": 138,
+    "output_tokens": [
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "one hundred sixty eight",
+      "sil",
+      "sil",
+      "<self>",
+      "sil",
+      "sil"
+    ]
+  },
+  {
+    "sid": 139,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "p d f",
+      "sil",
+      "eight hundred twenty three point o six kilobytes",
+      "sil",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 140,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "eight a m",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 141,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "eighteen twelve",
+      "sil"
+    ]
+  },
+  {
+    "sid": 142,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "two thousand five hundred eighty seven",
+      "<self>",
+      "sil",
+      "one thousand forty seven hectares",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 143,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "twelve point four six",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "zero point eight eight",
+      "sil"
+    ]
+  },
+  {
+    "sid": 144,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "twelfth",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "nine hundred thousand",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 145,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "seventeen",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 146,
+    "output_tokens": [
+      "<self>",
+      "may twenty ninth twenty thirteen",
+      "sil"
+    ]
+  },
+  {
+    "sid": 147,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "three hundred four",
+      "<self>",
+      "<self>",
+      "sil",
+      "thirty one point one percent",
+      "sil",
+      "sil",
+      "<self>",
+      "one hundred seventy eight",
+      "sil",
+      "eighteen point two percent",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 148,
+    "output_tokens": [
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "sil",
+      "c o o p r",
+      "five hundred forty seven",
+      "sil",
+      "<self>",
+      "c d",
+      "sil",
+      "sil"
+    ]
+  },
+  {
+    "sid": 149,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "one fifty four",
+      "minus three fifths",
+      "sil"
+    ]
+  },
+  {
+    "sid": 150,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "twenty forty three",
+      "sil"
+    ]
+  },
+  {
+    "sid": 151,
+    "output_tokens": [
+      "<self>",
+      "nineteen forty six",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 152,
+    "output_tokens": [
+      "<self>",
+      "sil",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 153,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 154,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "three hundred eightieth",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "b",
+      "twenty four",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 155,
+    "output_tokens": [
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "e p",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 156,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "seventeenth",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 157,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "twenty five point five two o",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 158,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "five",
+      "<self>",
+      "four twelfths",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "seven point five petabytes",
+      "two quarters",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 159,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "august seventeenth",
+      "sil",
+      "<self>",
+      "eleven thirty",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "august seventeenth",
+      "sil",
+      "<self>",
+      "eighteen fifteen",
+      "sil"
+    ]
+  },
+  {
+    "sid": 160,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "one thousand",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 161,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 162,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "sil",
+      "sil",
+      "m e p's",
+      "<self>",
+      "<self>",
+      "fourteen percent",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "sil",
+      "<self>",
+      "<self>",
+      "sil",
+      "the twenty seventh of march nineteen eighty two",
+      "sil",
+      "<self>",
+      "sil",
+      "four",
+      "sil"
+    ]
+  },
+  {
+    "sid": 163,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "twenty seven thousand eighty three dollars",
+      "<self>",
+      "sixteen thousand eight hundred seventy five dollars",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 164,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "twenty first",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 165,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "two thousand",
+      "<self>",
+      "sil",
+      "forty two percent",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "thirty eight percent",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 166,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "twenty seven thousand one hundred forty three dollars",
+      "<self>",
+      "twenty thousand six hundred ninety four dollars",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 167,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "one point one",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "eleven kilometers",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 168,
+    "output_tokens": [
+      "sil",
+      "t v",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "six point six",
+      "<self>",
+      "<self>",
+      "sil",
+      "sil"
+    ]
+  },
+  {
+    "sid": 169,
+    "output_tokens": [
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "fifty five thousand five hundred twenty seven",
+      "sil",
+      "sil",
+      "sil"
+    ]
+  },
+  {
+    "sid": 170,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "second",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 171,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "r",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 172,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 173,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "sil",
+      "f",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "sil",
+      "s a",
+      "i s b n",
+      "eight four sil nine three three seven o two sil one sil five",
+      "sil"
+    ]
+  },
+  {
+    "sid": 174,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "seven hundred eighty seven",
+      "<self>",
+      "sil",
+      "two hundred forty meters",
+      "sil",
+      "sil"
+    ]
+  },
+  {
+    "sid": 175,
+    "output_tokens": [
+      "sil",
+      "<self>",
+      "three million",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "sil"
+    ]
+  },
+  {
+    "sid": 176,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "three hundred million pounds",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 177,
+    "output_tokens": [
+      "<self>",
+      "twenty two ten",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 178,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 179,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "twenty fifteen",
+      "sil",
+      "sixteen",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "thirteen point o o eight eight",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 180,
+    "output_tokens": [
+      "i s b n",
+      "nine seven eight sil three sil nine three three three seven five sil o o sil one",
+      "sil",
+      "<self>",
+      "sil",
+      "fifty",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "six",
+      "sil"
+    ]
+  },
+  {
+    "sid": 181,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "sil",
+      "sil"
+    ]
+  },
+  {
+    "sid": 182,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "eleven thousand two hundred sixty two dollars",
+      "sil"
+    ]
+  },
+  {
+    "sid": 183,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "one point two million dollars",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 184,
+    "output_tokens": [
+      "i i s i",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 185,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 186,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "twenty three thirty five",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 187,
+    "output_tokens": [
+      "the fourteenth of may",
+      "sil",
+      "<self>",
+      "<self>",
+      "c b i",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "the twentieth of may"
+    ]
+  },
+  {
+    "sid": 188,
+    "output_tokens": [
+      "w r c t",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 189,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "ten thousand dollars",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 190,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sixteen eighty eight",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 191,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "the third",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "thirteenth",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 192,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "fifty three seventieths",
+      "sil",
+      "<self>",
+      "<self>",
+      "sil",
+      "c s i",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 193,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "c f",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 194,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "seventh",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 195,
+    "output_tokens": [
+      "<self>",
+      "november twentieth twenty thirteen",
+      "sil"
+    ]
+  },
+  {
+    "sid": 196,
+    "output_tokens": [
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "h c",
+      "two",
+      "sil",
+      "sil"
+    ]
+  },
+  {
+    "sid": 197,
+    "output_tokens": [
+      "sil",
+      "two hundred fifty million dollars",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "sil"
+    ]
+  },
+  {
+    "sid": 198,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "fifteen",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "the twelfth of july two thousand six",
+      "sil"
+    ]
+  },
+  {
+    "sid": 199,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "two thousand four",
+      "<self>",
+      "sil",
+      "i n e",
+      "sil",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "one hundred eight",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 200,
+    "output_tokens": [
+      "<self>",
+      "sil",
+      "nineteen seventy two",
+      "sil",
+      "i s b n",
+      "three sil seven eight eight five sil o o two three sil nine",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 201,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "twenty thirteen",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "two hours twenty seven minutes and seven seconds",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 202,
+    "output_tokens": [
+      "sil",
+      "l a",
+      "i n s u m i s i o n",
+      "v o l u n t a r i a",
+      "sil"
+    ]
+  },
+  {
+    "sid": 203,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "thirteen",
+      "<self>",
+      "<self>",
+      "nineteen ninety one",
+      "<self>",
+      "two thousand three",
+      "<self>",
+      "<self>",
+      "<self>",
+      "two eight six sil two two o sil three",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 204,
+    "output_tokens": [
+      "i s b n",
+      "three sil nine eight o six seven seven three sil four sil six",
+      "sil"
+    ]
+  },
+  {
+    "sid": 205,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "two thousand",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "two thousand one",
+      "<self>",
+      "twenty",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 206,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "nineteen sixty",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 207,
+    "output_tokens": [
+      "<self>",
+      "seven hundred twenty five",
+      "<self>",
+      "<self>",
+      "nineteen kilometers",
+      "sil",
+      "twelve miles",
+      "sil"
+    ]
+  },
+  {
+    "sid": 208,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "one hundred eighty sixth",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 209,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "sil",
+      "two thousand four",
+      "sil",
+      "sil"
+    ]
+  },
+  {
+    "sid": 210,
+    "output_tokens": [
+      "i s b n",
+      "o sil seven nine four six sil o four three five sil eight",
+      "sil",
+      "i s b n",
+      "nine seven eight sil o sil seven nine four six sil o four three five sil six",
+      "sil"
+    ]
+  },
+  {
+    "sid": 211,
+    "output_tokens": [
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "fourteen",
+      "<self>",
+      "two o o nine sil o nine sil one o sil o three",
+      "<self>",
+      "sil",
+      "sil"
+    ]
+  },
+  {
+    "sid": 212,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "five fifty fourths",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "five hundred fifty two",
+      "sil"
+    ]
+  },
+  {
+    "sid": 213,
+    "output_tokens": [
+      "<self>",
+      "two thousand seven",
+      "sil",
+      "two thousand eight",
+      "<self>",
+      "<self>",
+      "twenty point six",
+      "<self>",
+      "sil",
+      "two point six",
+      "<self>",
+      "<self>",
+      "five point zero",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 214,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "ninety nine percent",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 215,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "fifty thousand",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 216,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sixty four megabytes",
+      "<self>",
+      "g d d r",
+      "three",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 217,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "fifth",
+      "<self>",
+      "p a",
+      "sixty five",
+      "sil",
+      "p a",
+      "two hundred eighty eight",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "p a",
+      "sixty five two hundred eighty eighths",
+      "sil"
+    ]
+  },
+  {
+    "sid": 218,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "sil",
+      "i s b n",
+      "five sil seven eight six seven sil o o six o sil seven",
+      "sil",
+      "i s b n",
+      "five sil two two four sil o one three one eight sil six",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "w i",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 219,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "nineteen ninety three",
+      "<self>",
+      "<self>",
+      "<self>",
+      "nineteen ninety four",
+      "sil"
+    ]
+  },
+  {
+    "sid": 220,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "two point four nine",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "two point nine seven",
+      "sil"
+    ]
+  },
+  {
+    "sid": 221,
+    "output_tokens": [
+      "sil",
+      "<self>",
+      "<self>",
+      "one hundred gigabits per second",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "c o n n e c t x",
+      "four",
+      "<self>",
+      "sil",
+      "sil"
+    ]
+  },
+  {
+    "sid": 222,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "one and seven eighths",
+      "<self>",
+      "<self>",
+      "sil"
+    ]
+  },
+  {
+    "sid": 223,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "four million five hundred thousand dollars",
+      "sil"
+    ]
+  },
+  {
+    "sid": 224,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "<self>",
+      "<self>",
+      "sil",
+      "<self>",
+      "sil",
+      "nineteen ninety five",
+      "sil",
+      "i s b n",
+      "one sil eight nine eight o five one sil two two sil four",
+      "sil",
+      "i s b n",
+      "nine seven eight sil one sil eight nine eight o five one sil two two sil o",
+      "sil"
+    ]
+  },
+  {
+    "sid": 225,
+    "output_tokens": [
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "<self>",
+      "twelve thirty",
+      "<self>",
+      "september two thousand eight",
+      "sil"
+    ]
+  }
+]

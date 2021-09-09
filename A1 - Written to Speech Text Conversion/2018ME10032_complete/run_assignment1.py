@@ -703,7 +703,12 @@ def has_time(input_string):
 def get_time(input_string):
     res = ''
     hour_24 = False
+    count = 0
+    time_suffix = False
+    
     input_string = re.sub(r'\.', '', input_string)
+    input_string = re.sub(r' ', '', input_string)
+    
     time_list = input_string.split(' ')
 
     for time in time_list:
@@ -712,6 +717,25 @@ def get_time(input_string):
             # Handles '5:30' --> 'five thirty'
             if bool(re.search(r':', key)):
                 temp_list = key.split(':')
+                
+                for temp in temp_list:
+                    if temp == '00':
+                        count += 1
+                    
+                ## 00:00 --> zero hundred
+                if count == 2:
+                    res = 'zero hundred'
+                    return res
+
+                ## Checking through the string to find if we have am or pm, which would mean that "o'clock" would not exist
+                for key_temp in key_list:
+                    # print('Yay!', key_temp)
+                    if key_temp.lower() == 'am' or key_temp.lower() == 'pm':
+                        time_suffix = True          # There is am or pm in the input string
+                        # print('time suf')
+                        break
+                    
+
                 # Handling sid 201 that for 2:27:07 --> 'two hours twenty seven minutes and seven seconds
                 if len(temp_list) == 3:
                     # print("hello")
@@ -725,7 +749,7 @@ def get_time(input_string):
                             elif counter == 2:
                                 res += get_onlydigits(temp) + ' minutes '
                             elif counter == 3:
-                                res += ' and ' + get_onlydigits(temp) + ' seconds'
+                                res += ' and ' + get_onlydigits(temp) + ' seconds '
                             counter += 1                        # indicating that the next time term comes
                 else:
                     for temp in temp_list:
@@ -736,9 +760,10 @@ def get_time(input_string):
                         # sid 118: 19:00 --> 'nineteen hundred'
                         if temp == '00':
                             if hour_24:
-                                res += 'hundred'
-                            else:
-                                res += ''
+                                res += 'hundred '
+                            ## as per Piazza query, we need to write '7:00' as 'seven o'clock'
+                            elif not time_suffix:
+                                res += "o'clock "
                         
                         # to remove initial zeroes in the string; except for the case when it is '00'
                         elif has_onlydigits(temp.lstrip('0')):
