@@ -282,11 +282,8 @@ def get_symbol(input_string, currency, small_currency):
     smaller_currency_used = False
 
     if currency == 'rupee':
-        print(input_string)
         input_string = re.sub('\.', '', input_string[:3]) + input_string[3:]         # 'Rs.32.34' --> 'Rs32.34'
-        print(input_string)
         input_string = input_string[2:].lstrip(' ').lstrip('.')
-        print(input_string)
     else:
         input_string = input_string[1:].lstrip(' ')
 
