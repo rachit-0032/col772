@@ -172,7 +172,7 @@ full_form = {
 
 ## List of common uncapitalised full forms.
 full_form_uncapitalised = [
-        'tv', 'ac', 'iirc', 'lol', 'smh', 'rofl', 'brb'
+        'tv', 'ac', 'iirc', 'lol', 'smh', 'rofl', 'brb', 'gn'
 ]
 
 ## Dictionary of number representation.
@@ -269,10 +269,11 @@ def has_symbol(input_string):
         return True, 'pound', 'pounce'
     elif bool(re.search(r'\€', input_string)):
         return True, 'euro', 'cent'
-    elif bool(re.search(r'(Rs[ \.]){1}', input_string)):
-        return True, 'rupee', 'pais'
+    elif bool(re.search(r'R\.{0,1}[Ss][ \.]{1}', input_string)):
+        return True, 'rupee', 'paise'
     else:
         return False, '', ''
+
 
 ## Returns output for input string having currency symbol
 def get_symbol(input_string, currency, small_currency):
@@ -281,9 +282,13 @@ def get_symbol(input_string, currency, small_currency):
     smaller_currency_used = False
 
     if currency == 'rupee':
+        print(input_string)
+        input_string = re.sub('\.', '', input_string[:3]) + input_string[3:]         # 'Rs.32.34' --> 'Rs32.34'; there can be a lot of variations of rupees
+        print(input_string)
         input_string = input_string[2:].lstrip(' ').lstrip('.')
+        print(input_string)
     else:
-        input_string = input_string[1:]
+        input_string = input_string[1:].lstrip(' ')
 
     currency_list = input_string.split(' ')
 
@@ -301,6 +306,7 @@ def get_symbol(input_string, currency, small_currency):
                         res += 's'
                     res += ' and ' + get_onlydigits(num_list[1]) + ' ' + small_currency
                     if (int(num_list[1]) > 1):
+                        # print(num_list[1])
                         if currency == 'rupee':
                             res = res[:-1] + 'e'            # 'paisa' to be converted to 'paise'
                         else:
@@ -348,9 +354,9 @@ def get_punc(input_string):
 
 # NUMERICALS ONLY ------------------
 
-## Checks for only numericals being present inside input string
-def has_numeric(input_string):
-    return bool(re.search(r'\d', input_string))
+# ## Checks for only numericals being present inside input string
+# def has_numeric(input_string):
+#     return bool(re.search(r'\d', input_string))
 
 
 # FOUR NUMERICALS ONLY (for years) ------------------
@@ -405,7 +411,7 @@ def get_onlydigits(input_string):
         return ''
 
     res = ''
-    input_string = re.sub(r'[^\d-]', '', input_string)
+    input_string = re.sub(r'[^\d-]', '', input_string)      # negative numbers can also exist
     int_string = int(input_string)
     
     if int_string < 0:
@@ -1001,7 +1007,7 @@ def solution(input_tokens):
 
         # Handling roman numerals.
         if token in roman_numerals.keys() and not flag:
-            # sol.append(get_onlydigits(roman_numerals[token]))
+            # sol.append(get_onlydigits(roman_numerals[token]))             # gives a lower score
             sol.append('the ' + get_extendednums(roman_numerals[token]))
             flag = True
 
