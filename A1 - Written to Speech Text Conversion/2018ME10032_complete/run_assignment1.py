@@ -283,7 +283,7 @@ def get_symbol(input_string, currency, small_currency):
 
     if currency == 'rupee':
         print(input_string)
-        input_string = re.sub('\.', '', input_string[:3]) + input_string[3:]         # 'Rs.32.34' --> 'Rs32.34'; there can be a lot of variations of rupees
+        input_string = re.sub('\.', '', input_string[:3]) + input_string[3:]         # 'Rs.32.34' --> 'Rs32.34'
         print(input_string)
         input_string = input_string[2:].lstrip(' ').lstrip('.')
         print(input_string)
@@ -297,28 +297,37 @@ def get_symbol(input_string, currency, small_currency):
         for key in key_list:
             # print(key)
             if has_decimal(key):
+                num_list = key.split('.')
+                
                 # If the number of decimal places is two, then need to use the smaller currency; ex: 12.22 dollars is 12 dollars and 22 cents
-                if len(key_list) == 1 and len(currency_list) == 1 and bool(re.search(r'^\d+\.*\d+$', key)):     # if there is any other unit involved, then we do not have to use the smaller currency utility
+                if len(key_list) == 1 and len(currency_list) == 1 and len(num_list[1]) <= 2 and bool(re.search(r'^\d+\.*\d+$', key)):     # if there is any other unit involved, then we do not have to use the smaller currency utility
                     smaller_currency_used = True
                     num_list = key.split('.')
+                    ## '$12.100' --> 'twelve point one o o dollars' since cents can only be till 100!
+                    
                     res += get_onlydigits(num_list[0]) + ' ' + currency
-                    if (int(num_list[0]) > 1):
+                    if (int(num_list[0]) != 1):
                         res += 's'
-                    res += ' and ' + get_onlydigits(num_list[1]) + ' ' + small_currency
-                    if (int(num_list[1]) > 1):
+                    if len(num_list[1]) == 1:
+                        num_list[1] = str(int(num_list[1])*10)
+                    if len(num_list[1]) == 2:
+                        res += ' and ' + get_onlydigits(num_list[1]) + ' ' + small_currency
                         # print(num_list[1])
-                        if currency == 'rupee':
-                            res = res[:-1] + 'e'            # 'paisa' to be converted to 'paise'
-                        else:
-                            res += 's'
-                    # return res
+                        if (int(num_list[1]) != 1):
+                            print(num_list[1])
+                            if currency == 'rupee':
+                                res = res[:-1] + 'e'            # 'paisa' to be converted to 'paise'
+                            else:
+                                res += 's'
+                        # else:
+                        #     res += 's'
                 else:
-                    if float(key) > 1.0:
+                    if float(key) != 1.0:
                         plural = True
                         res += get_decimal(key) + ' '
                     
             elif has_onlydigits(key):
-                if len(key) > 1:
+                if len(key) != 1:
                     plural = True
                 res += get_onlydigits(key) + ' '
             elif key in full_form.keys():
@@ -910,7 +919,7 @@ def get_date(input_string, order):
         return res
 
     else:
-        return ''
+        return '<self>'
 
 
 # FRACTIONS ------------------
@@ -1021,6 +1030,11 @@ def solution(input_tokens):
             sol.append(get_percent(token))
             flag = True
 
+        # Handling time units; for ex: '5:30pm PST' --> 'five thirty p m p s t'
+        if has_time(token) and not flag:
+            sol.append(get_time(token))
+            flag = True
+
         # Handling all capital tokens (not as abbreviations though).
         if has_allcaps(token) and (len(token) > 1) and not flag:
             # if token == 'ISBN':
@@ -1053,11 +1067,6 @@ def solution(input_tokens):
         # Handling division of numbers.
         if has_division(token) and not flag:
             sol.append(get_division(token))
-            flag = True
-
-        # Handling time units; for ex: '5:30pm PST' --> 'five thirty p m p s t'
-        if has_time(token) and not flag:
-            sol.append(get_time(token))
             flag = True
 
         # Handling extended numericals, for ex: 21st --> 'twenty first'; has to be handled before units.
