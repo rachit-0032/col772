@@ -1016,7 +1016,7 @@ def solution(input_tokens):
             # If the previous token's first letter is capital, then we can be 'somewhat more certain' about using extended form of the roman numeral
             if bool(re.search(r'^[A-Z]', prev_token)):
                 # sid 11 --> Chapter 'IV' --> 'four' and not 'the fourth'; notion of proper noun can be developed although sid 49 seems incorrectly labelled
-                if prev_token not in ['Chapter', 'Page', 'Section', 'Set', 'Game', 'Match']:
+                if prev_token not in ['Chapter', 'Page', 'Section', 'Set', 'Game', 'Match', 'Mark']:
                     sol.append('the ' + get_extendednums(roman_numerals[token]))
                 else:
                     sol.append(get_onlydigits(roman_numerals[token]))
