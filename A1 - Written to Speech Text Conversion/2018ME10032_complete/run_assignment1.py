@@ -690,7 +690,7 @@ def get_allcaps(input_string):                          # ref: sid 202
     input_string = re.sub(r'[\.-]', '', input_string)
     
     # sid: 162 where MEPs --> 'm e p's
-    if input_string[-1] == 's':
+    if input_string[-1] == 's' and bool(re.search(r'[A-Z]', input_string[-2])):
         res = ((' '.join(input_string[:-1])).lower()) + "'s"
     else:
         res = ((' '.join(input_string)).lower())
