@@ -1097,10 +1097,12 @@ def solution(input_tokens):
 
         # If nothing else, then the token should be <self>.
         if not flag:
-            if token in ['Nahr', 'Yai', 'Phrao', 'mes']:
-                sol.append(get_allcaps(token))
-            else:
-                sol.append('<self>')
+            # Hard-Coding due to ambiguous Piazza post
+            # if token in ['Nahr', 'Yai', 'Phrao', 'mes']:
+            #     sol.append(get_allcaps(token))
+            # else:
+            #     sol.append('<self>')
+            sol.append('<self>')
 
         prev_token = token          # prev_token is used to has information about the just previous token and this information can extensively be used for ISBN codes
         flag = False                # preparing for the next iteration.
