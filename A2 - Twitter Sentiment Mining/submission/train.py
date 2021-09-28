@@ -22,7 +22,7 @@ model_location = sys.argv[2]
 
 
 ## Reading data
-df = pd.read_csv(train_location, encoding='ISO-8859-1', names=['Polarity', 'Tweet'])
+df = pd.read_csv(train_location, encoding='ISO-8859-1')
 
 
 ## Pre-Processing
