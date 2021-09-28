@@ -1,4 +1,3 @@
-@switchfoot http://twitpic.com/2y1zl - Awww, that's a bummer.  You shoulda got David Carr of Third Day to do it.
-is upset that he can't update his Facebook by texting it... and might cry as a result  School today also. Blah!
-Happy 38th Birthday to my boo of alll time!!! Tupac Amaru Shakur
-happy #charitytuesday @theNSPCC @SparksCharity @SpeakingUpH4H
+version https://git-lfs.github.com/spec/v1
+oid sha256:ee02e4171936c94e5f7ab71b6e93a2983bd6a0920676630be29d37bf4e1e73ae
+size 352
