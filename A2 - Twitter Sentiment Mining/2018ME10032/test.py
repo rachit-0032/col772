@@ -4,16 +4,6 @@ import pandas as pd
 import sys
 import pickle
 import pre_processing as pp
-import time
-
-t0 = time.time()
-
-# from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
-# from sklearn.model_selection import train_test_split
-# from sklearn.naive_bayes import MultinomialNB
-# from sklearn.linear_model import LogisticRegression, SGDClassifier
-# from sklearn.pipeline import Pipeline
-from sklearn.metrics import f1_score
 
 
 ## Loading Data
@@ -34,16 +24,6 @@ with open(test_location, 'r', encoding='ISO-8859-1') as f:
     # test = f.read().splitlines()
     f.close()
 df = pd.DataFrame({'Tweet': test})
-
-## Reading gold labels
-gold = []
-with open('data/gold.txt', 'r') as f:
-    # test.append(f.readlines())
-    for line in f:
-        gold.append(int(line))
-    # test = f.read().splitlines()
-    f.close()
-gold = pd.Series(gold)
 
 
 ## Pre-Processing
@@ -70,20 +50,9 @@ X_test = df['Tweet_final_sent']
 y_pred_lr = pipe.predict(X_test)
 
 
-gold = np.where(gold == 4, 1, 0)
-
-print('F1 Score: ', f1_score(gold, y_pred_lr))
-
-
 ## Converting pos_label and saving predictions
 y_pred_lr = np.where(y_pred_lr == 1, 4, 0)
 with open(prediction_location, 'w') as f:
     for pred in y_pred_lr:
         f.write('%d' %pred)
         f.write('\n')
-
-
-t1 = time.time()
-total = t1-t0
-
-print('Time spent testing is:', total, 's')

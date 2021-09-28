@@ -5,7 +5,6 @@ import sys
 import pickle
 import pre_processing as pp
 
-t0 = time.time()
 
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.linear_model import LogisticRegression
@@ -60,9 +59,3 @@ pipe.fit(X_train, y_train)
 
 ## Saving model at the given location
 pickle.dump(pipe, open(model_location, "wb"))
-
-
-t1 = time.time()
-total = t1-t0
-
-print('Time spent training is:', total, 's')
