@@ -216,14 +216,14 @@ def sentence_creator(df, col_name, title):
 
 
 ## Pre-Processing
-df = df.sample(frac=0.1, random_state=1)
+df = df.sample(frac=1, random_state=1)
 
-## To create temporary test file
-# X_train, X_test, y_train, y_test = train_test_split(df['Tweet'], df['Polarity'], stratify=df['Polarity'], test_size=0.1, random_state=2) 
-# with open('data/test.txt', 'w', encoding='ISO-8859-1') as f:
-#     for tweet in X_test:
-#         f.write(tweet)
-#         f.write('\n')
+# To create temporary test file
+X_train, X_test, y_train, y_test = train_test_split(df['Tweet'], df['Polarity'], stratify=df['Polarity'], test_size=0.1, random_state=2) 
+with open('data/test.txt', 'w', encoding='ISO-8859-1') as f:
+    for tweet in X_test:
+        f.write(tweet)
+        f.write('\n')
 
 
 df = polarity_modifier(df)
