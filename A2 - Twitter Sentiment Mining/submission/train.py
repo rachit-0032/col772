@@ -124,7 +124,6 @@ def handle_clitics(tweet):
 ## Common short forms that are worth translating
 short_forms = {
     'n': 'and',
-    'nu': 'not',
     'no': 'not',
     'ya': 'you',
     'luv': 'love',
@@ -210,6 +209,15 @@ def add_negation(tweet):
     return tweet_new
 
 
+## Removal of stopwords to reduce the number of features
+def stopword_removal(tweet):
+    stoplist = stopwords.words('english')
+    manual_stoplist = ['i', 'nu', 'it', 'u', 'you', 'tweet', 'dm', 'gm', 'gn', 'day', 'and', 'or', 'go', 'get', 'give']
+    stoplist.extend(manual_stoplist)
+    stoplist.remove('not')      # This is an important word
+    stoplist.remove('against')
+    return tweet
+
 ## Creating sentence from tokenised version
 def sentence_creator(df, col_name, title):
     df[title] = df[col_name].apply(lambda x:' '.join([token for token in x]))
@@ -244,7 +252,8 @@ df = sentence_creator(df, 'Tweet_token', 'Tweet_sent')
 df['Tweet_normalised'] = df['Tweet_sent'].apply(normalisation_words)
 df = sentence_creator(df, 'Tweet_normalised', 'Tweet_sent_normal')
 df['Tweet_normal_negated'] = df['Tweet_normalised'].apply(add_negation)
-df = sentence_creator(df, 'Tweet_normal_negated', 'Tweet_final_sent')
+df['Tweet_stopword'] = df['Tweet_normal_negated'].apply(stopword_removal)
+df = sentence_creator(df, 'Tweet_stopword', 'Tweet_final_sent')
 
 
 X_train, X_test, y_train, y_test = train_test_split(df['Tweet'], df['Polarity'], stratify=df['Polarity'], test_size=0.1, random_state=2)      # to create temporary test file
