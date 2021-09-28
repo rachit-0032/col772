@@ -40,7 +40,8 @@ model_location = sys.argv[2]
 # data_pos = pd.read_csv(train_pos_location, encoding='ISO-8859-1')
 # data_neg = pd.read_csv(train_neg_location, encoding='ISO-8859-1')
 
-df = pd.read_csv(train_location, encoding='ISO-8859-1', names=['Polarity', 'Tweet'])
+# df = pd.read_csv(train_location, encoding='ISO-8859-1', names=['Polarity', 'Tweet'], dtype={'Polarity': int, 'Tweet': str})
+df = pd.read_csv(train_location, encoding='ISO-8859-1')
 
 ## Combining Data
 # df = data_neg.append(data_pos)
@@ -258,10 +259,11 @@ df['Tweet_pure_string'] = df['Tweet_shortforms'].apply(maintain_letters)
 df['Tweet_token'] = df['Tweet_pure_string'].apply(tweet_word_tokenizer)
 df = sentence_creator(df, 'Tweet_token', 'Tweet_sent')
 df['Tweet_normalised'] = df['Tweet_sent'].apply(normalisation_words)
-df = sentence_creator(df, 'Tweet_normalised', 'Tweet_sent_normal')
+# df = sentence_creator(df, 'Tweet_normalised', 'Tweet_sent_normal')
 df['Tweet_normal_negated'] = df['Tweet_normalised'].apply(add_negation)
-df['Tweet_stopword'] = df['Tweet_normal_negated'].apply(stopword_removal)
-df = sentence_creator(df, 'Tweet_stopword', 'Tweet_final_sent')
+df = sentence_creator(df, 'Tweet_normal_negated', 'Tweet_final_sent')
+# df['Tweet_stopword'] = df['Tweet_normal_negated'].apply(stopword_removal)
+# df = sentence_creator(df, 'Tweet_stopword', 'Tweet_final_sent')
 
 
 # # X_train, X_test, y_train, y_test = train_test_split(df['Tweet_final_sent'], df['Polarity'], stratify=df['Polarity'], test_size=0.1, random_state=2)      # to create temporary test file
@@ -357,7 +359,7 @@ pickle.dump(pipe, open(model_location, "wb"))
 # # # sum(y_pred_lr == y_test)/len(y_test)
 
 
-# t1 = time.time()
-# total = t1-t0
+t1 = time.time()
+total = t1-t0
 
-# print('Time spent training is:', total, 's')
+print('Time spent training is:', total, 's')

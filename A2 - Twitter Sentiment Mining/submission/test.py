@@ -48,7 +48,7 @@ with open(test_location, 'r', encoding='ISO-8859-1') as f:
     f.close()
 
 
-print(len(test))
+# print(len(test))
 
 gold = []
 with open('data/gold.txt', 'r') as f:
@@ -58,7 +58,7 @@ with open('data/gold.txt', 'r') as f:
     # test = f.read().splitlines()
     f.close()
 
-print(type(gold[0]))
+# print(type(gold[0]))
 gold = pd.Series(gold)
 
 df = pd.DataFrame({'Tweet': test})
@@ -258,6 +258,8 @@ df['Tweet_normalised'] = df['Tweet_sent'].apply(normalisation_words)
 df = sentence_creator(df, 'Tweet_normalised', 'Tweet_sent_normal')
 df['Tweet_normal_negated'] = df['Tweet_normalised'].apply(add_negation)
 df = sentence_creator(df, 'Tweet_normal_negated', 'Tweet_final_sent')
+# df['Tweet_stopword'] = df['Tweet_normal_negated'].apply(stopword_removal)
+# df = sentence_creator(df, 'Tweet_stopword', 'Tweet_final_sent')
 
 
 X_test = df['Tweet_final_sent']
@@ -269,6 +271,7 @@ gold = np.where(gold == 4, 1, 0)
 print('F1 Score: ', f1_score(gold, y_pred_lr))
 
 y_pred_lr = np.where(y_pred_lr == 1, 4, 0)
+
 with open(prediction_location, 'w') as f:
     for pred in y_pred_lr:
         # if pred == 1:
