@@ -6,6 +6,9 @@ import nltk
 import sklearn
 import sys
 import pickle
+import time
+
+t0 = time.time()
 
 from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 from sklearn.model_selection import train_test_split
@@ -28,26 +31,25 @@ nltk.download('wordnet')
 nltk.download('averaged_perceptron_tagger')
 
 ## Loading Data
-train_pos_location = sys.argv[1]
-train_neg_location = sys.argv[2]
-model_location = sys.argv[3]
+train_location = sys.argv[1]
+# train_neg_location = sys.argv[2]
+model_location = sys.argv[2]
 
 
 ## Reading data
-data_pos = pd.read_csv(train_pos_location, encoding='ISO-8859-1')
-data_neg = pd.read_csv(train_neg_location, encoding='ISO-8859-1')
+# data_pos = pd.read_csv(train_pos_location, encoding='ISO-8859-1')
+# data_neg = pd.read_csv(train_neg_location, encoding='ISO-8859-1')
 
+df = pd.read_csv(train_location, encoding='ISO-8859-1')
 
 ## Combining Data
-df = data_neg.append(data_pos)
+# df = data_neg.append(data_pos)
 df = df.iloc[:,1:]
-
 
 ### Relabelling positive labels from 4 to 1
 def polarity_modifier(df):
     df['Polarity'] = np.where(df['Polarity'] == 4, 1, 0)
     return df
-
 
 
 ### Tokenising tweets
@@ -152,7 +154,6 @@ def handle_shortforms(tweet):
     return ' '.join(temp.split())
 
 
-
 ## Maintaining only letters within a tweet and removing every other information since not indicative of sentiment
 def maintain_letters(tweet):
     tweet = re.sub(r'[^a-zA-Z]', ' ', tweet) 
@@ -216,14 +217,19 @@ def sentence_creator(df, col_name, title):
 
 
 ## Pre-Processing
-df = df.sample(frac=1, random_state=1)
+# df = df.sample(frac=1, random_state=1)
 
-# To create temporary test file
-X_train, X_test, y_train, y_test = train_test_split(df['Tweet'], df['Polarity'], stratify=df['Polarity'], test_size=0.1, random_state=2) 
-with open('data/test.txt', 'w', encoding='ISO-8859-1') as f:
-    for tweet in X_test:
-        f.write(tweet)
-        f.write('\n')
+# # To create temporary test file
+# X_train, X_test, y_train, y_test = train_test_split(df['Tweet'], df['Polarity'], stratify=df['Polarity'], test_size=0.1, random_state=2) 
+
+# training_sample = pd.DataFrame({'Polarity': y_train, 'Tweet': X_train})
+# training_sample.reset_index(inplace=True, drop=True)
+# training_sample.to_csv('data/training_sample.csv', encoding='ISO-8859-1')
+
+# with open('data/test.txt', 'w', encoding='ISO-8859-1') as f:
+#     for tweet in X_test:
+#         f.write(tweet)
+#         f.write('\n')
 
 
 df = polarity_modifier(df)
@@ -243,55 +249,6 @@ df = sentence_creator(df, 'Tweet_normal_negated', 'Tweet_final_sent')
 
 X_train, X_test, y_train, y_test = train_test_split(df['Tweet'], df['Polarity'], stratify=df['Polarity'], test_size=0.1, random_state=2)      # to create temporary test file
 
-
-pipe = Pipeline([
-                ('vectoriser', TfidfVectorizer(token_pattern=r'[a-z]+', min_df=1, ngram_range=(1,2))),
-                ('model', SGDClassifier(random_state=1, loss='hinge'))
-                ])
-
-pipe.fit(X_train, y_train)
-y_pred_sgd = pipe.predict(X_test)
-print('F1 Score: ', f1_score(y_test, y_pred_sgd))
-sum(y_pred_sgd == y_test)/len(y_test)
-
-
-coefs = pd.DataFrame(pipe['model'].coef_, 
-                     columns=pipe['vectoriser'].get_feature_names())
-coefs = coefs.T.rename(columns={0:'coef'}).sort_values('coef')
-## To create temporary test file
-# X_train, X_test, y_train, y_test = train_test_split(df['Tweet'], df['Polarity'], stratify=df['Polarity'], test_size=0.1, random_state=2) 
-# with open('data/coefs.csv', 'w', encoding='ISO-8859-1') as f:
-#     for tweet in X_test:
-#         f.write(tweet)
-#         f.write('\n')
-coefs.to_csv('data/coef.csv')
-
-coef_pos_set = set(coefs.iloc[np.where(coefs['coef'] > 1)].index.tolist())        # 'good' was missing if put 1
-coef_neg_set = set(coefs.iloc[np.where(coefs['coef'] < 1)].index.tolist())
-
-
-## Adds some keywords depicting the overall polarity felt
-def words_freq(tweet):
-  num_pos = len(set(tweet).intersection(coef_pos_set))
-  num_neg = len(set(tweet).intersection(coef_neg_set))
-  
-  # If there exist positive words in the tweet
-  if num_pos:
-      for num in range(num_pos):
-          tweet.append('POSITIVE')
-  if num_neg:
-      for num in range(num_neg):
-          tweet.append('NEGATIVE')
-  return tweet
-
-
-df['Tweet_lexicons'] = df['Tweet_normal_negated'].apply(words_freq)
-df = sentence_creator(df, 'Tweet_lexicons', 'Tweet_final_sent_lexicons')
-
-
-X_train, X_test, y_train, y_test = train_test_split(df['Tweet_final_sent_lexicons'], df['Polarity'], stratify=df['Polarity'], test_size=0.1, random_state=2)
-
-
 pipe = Pipeline([
                 ('vectoriser', CountVectorizer(ngram_range=(1, 2), min_df=1)),
                 ('model', LogisticRegression(penalty='l2',
@@ -301,8 +258,86 @@ pipe = Pipeline([
                          n_jobs = -1,
                          max_iter = 100))
                 ])
+                
 
 pipe.fit(X_train, y_train)
 y_pred_lr = pipe.predict(X_test)
-print('F1 Score after using Lexicons: ', f1_score(y_test, y_pred_lr))
+print('F1 Score: ', f1_score(y_test, y_pred_lr))
+
+
+## Saving model at the given location
+pickle.dump(pipe, open(model_location, "wb"));
+
+
 # sum(y_pred_lr == y_test)/len(y_test)
+
+
+# pipe = Pipeline([
+#                 ('vectoriser', TfidfVectorizer(token_pattern=r'[a-z]+', min_df=1, ngram_range=(1,2))),
+#                 ('model', SGDClassifier(random_state=1, loss='hinge'))
+#                 ])
+
+
+# coefs = pd.DataFrame(pipe['model'].coef_, 
+#                      columns=pipe['vectoriser'].get_feature_names())
+# coefs = coefs.T.rename(columns={0:'coef'}).sort_values('coef')
+
+# ## To create temporary test file
+# # X_train, X_test, y_train, y_test = train_test_split(df['Tweet'], df['Polarity'], stratify=df['Polarity'], test_size=0.1, random_state=2) 
+# # with open('data/coefs.csv', 'w', encoding='ISO-8859-1') as f:
+# #     for tweet in X_test:
+# #         f.write(tweet)
+# #         f.write('\n')
+# coefs.to_csv('data/coef.csv')
+
+
+
+
+# coefs = pd.read_csv('data/coef.csv', index_col=0)
+
+# coef_pos_set = set(coefs.iloc[np.where(coefs['coef'] > 1)].index.tolist())        # 'good' was missing if put 1
+# coef_neg_set = set(coefs.iloc[np.where(coefs['coef'] < 1)].index.tolist())
+
+
+# ## Adds some keywords depicting the overall polarity felt
+# def words_freq(tweet):
+#   num_pos = len(set(tweet).intersection(coef_pos_set))
+#   num_neg = len(set(tweet).intersection(coef_neg_set))
+  
+#   # If there exist positive words in the tweet
+#   if num_pos:
+#       for num in range(num_pos):
+#           tweet.append('POSITIVE')
+#   if num_neg:
+#       for num in range(num_neg):
+#           tweet.append('NEGATIVE')
+#   return tweet
+
+
+# df['Tweet_lexicons'] = df['Tweet_normal_negated'].apply(words_freq)
+# df = sentence_creator(df, 'Tweet_lexicons', 'Tweet_final_sent_lexicons')
+
+
+# X_train, X_test, y_train, y_test = train_test_split(df['Tweet_final_sent_lexicons'], df['Polarity'], stratify=df['Polarity'], test_size=0.1, random_state=2)
+
+
+# pipe = Pipeline([
+#                 ('vectoriser', CountVectorizer(ngram_range=(1, 2), min_df=1)),
+#                 ('model', LogisticRegression(penalty='l2',
+#                          solver='saga',
+#                          multi_class='multinomial',
+#                          tol=1e-5,
+#                          n_jobs = -1,
+#                          max_iter = 100))
+#                 ])
+
+# pipe.fit(X_train, y_train)
+# y_pred_lr = pipe.predict(X_test)
+# print('F1 Score after lexicons: ', f1_score(y_test, y_pred_lr))
+# # sum(y_pred_lr == y_test)/len(y_test)
+
+
+t1 = time.time()
+total = t1-t0
+
+print('Time spent training is:', total, 's')
