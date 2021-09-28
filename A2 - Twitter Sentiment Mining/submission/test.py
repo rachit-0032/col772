@@ -37,13 +37,29 @@ prediction_location = sys.argv[3]
 
 ## Reading data
 # df = pd.read_csv(test_location, encoding='ISO-8859-1')
-test = []
+
 pipe = pickle.load(open(model_location, "rb"))
 
+test = []
 with open(test_location, 'r', encoding='ISO-8859-1') as f:
-    # test.append(f.readlines())
     for line in f:
         test.append(line)
+    # test = f.read().splitlines()
+    f.close()
+
+
+print(len(test))
+
+gold = []
+with open('data/gold.txt', 'r') as f:
+    # test.append(f.readlines())
+    for line in f:
+        gold.append(int(line))
+    # test = f.read().splitlines()
+    f.close()
+
+print(type(gold[0]))
+gold = pd.Series(gold)
 
 df = pd.DataFrame({'Tweet': test})
 # print(df.head())
@@ -246,33 +262,24 @@ df = sentence_creator(df, 'Tweet_normal_negated', 'Tweet_final_sent')
 
 X_test = df['Tweet_final_sent']
 
-# X_train, X_test, y_train, y_test = train_test_split(df['Tweet'], df['Polarity'], stratify=df['Polarity'], test_size=0.1, random_state=2)      # to create temporary test file
-
-# pipe = Pipeline([
-#                 ('vectoriser', CountVectorizer(ngram_range=(1, 2), min_df=1)),
-#                 ('model', LogisticRegression(penalty='l2',
-#                          solver='saga',
-#                          multi_class='multinomial',
-#                          tol=1e-5,
-#                          n_jobs = -1,
-#                          max_iter = 200))
-#                 ])
-                
-
-# pipe.fit(X_train, y_train)
 y_pred_lr = pipe.predict(X_test)
 
+gold = np.where(gold == 4, 1, 0)
+
+print('F1 Score: ', f1_score(gold, y_pred_lr))
+
+y_pred_lr = np.where(y_pred_lr == 1, 4, 0)
 with open(prediction_location, 'w') as f:
     for pred in y_pred_lr:
-        if pred == 1:
-            f.write('4')
-        else:
-            f.write('0')
+        # if pred == 1:
+        #     f.write('4')
+        # else:
+        #     f.write('0')
+        f.write('%d' %pred)
         f.write('\n')
 
 
-# print('F1 Score: ', f1_score(y_test, y_pred_lr))
-# # sum(y_pred_lr == y_test)/len(y_test)
+# sum(y_pred_lr == y_test)/len(y_test)
 
 
 # # pipe = Pipeline([
@@ -340,7 +347,7 @@ with open(prediction_location, 'w') as f:
 # # # sum(y_pred_lr == y_test)/len(y_test)
 
 
-# t1 = time.time()
-# total = t1-t0
+t1 = time.time()
+total = t1-t0
 
-# print('Time spent training is:', total, 's')
+print('Time spent testing is:', total, 's')
