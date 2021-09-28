@@ -1,13 +1,19 @@
 ## Import required libraries
 import pandas as pd
+import time
 import sys
 import pickle
 import pre_processing as pp
 
+t0 = time.time()
 
 from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
+from sklearn.model_selection import train_test_split
+# from sklearn.naive_bayes import MultinomialNB
 from sklearn.linear_model import LogisticRegression
+# from sklearn.svm import LinearSVC
 from sklearn.pipeline import Pipeline
+from sklearn.metrics import classification_report, confusion_matrix, f1_score
 
 
 ## Loading Data
@@ -58,3 +64,9 @@ pipe.fit(X_train, y_train)
 
 ## Saving model at the given location
 pickle.dump(pipe, open(model_location, "wb"))
+
+
+t1 = time.time()
+total = t1-t0
+
+print('Time spent training is:', total, 's')
