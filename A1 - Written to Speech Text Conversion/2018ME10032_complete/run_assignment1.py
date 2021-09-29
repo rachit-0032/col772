@@ -655,8 +655,7 @@ def get_extendednums(input_string):
         if numeric_string == '0':
             return 'zeroth'
         return extended_nums[numeric_string]
-    
-    # The last unit plays the determining role for creating extended forms
+        # The last unit plays the determining role for creating extended forms
     unit_numeric = numeric[-1]
 
     # If the last two digits are between 10 and 20 (both inclusive), then we have to get its direct form
@@ -997,117 +996,118 @@ def solution(input_tokens):
     prev_token = ''
 
     for token in input_tokens:
+        try:
+            # All the extra spaces at the start and end of the token should be trimmed since the tokenisation may have a problem (for ex: sid 85 --> "21 ")
+            token = ' '.join(token.split())
 
-        # All the extra spaces at the start and end of the token should be trimmed since the tokenisation may have a problem (for ex: sid 85 --> "21 ")
-        token = ' '.join(token.split())
+            if prev_token == 'ISBN' and has_onlydigits(token.lstrip('0')) and not flag:
+                sol.append(get_isbncode(token))
+                flag = True
+                # left_is_isbn = False          # the immediate numerical instance after 'ISBN' has been handled
 
-        if prev_token == 'ISBN' and has_onlydigits(token.lstrip('0')) and not flag:
-            sol.append(get_isbncode(token))
-            flag = True
-            # left_is_isbn = False          # the immediate numerical instance after 'ISBN' has been handled
+            # Handling Punctuation.
+            if((has_punc(token) and (len(token) == 1)) and not flag):
+                sol.append(get_punc(token))
+                flag = True
 
-        # Handling Punctuation.
-        if((has_punc(token) and (len(token) == 1)) and not flag):
-            sol.append(get_punc(token))
-            flag = True
-
-        # Handling roman numerals.
-        if token in roman_numerals.keys() and not flag:
-            # If the previous token's first letter is capital, then we can be 'somewhat more certain' about using extended form of the roman numeral
-            if bool(re.search(r'^[A-Z]', prev_token)):
-                # sid 11 --> Chapter 'IV' --> 'four' and not 'the fourth'; notion of proper noun can be developed although sid 49 seems incorrectly labelled
-                if prev_token not in ['Chapter', 'Page', 'Section', 'Set', 'Game', 'Match']:
-                    sol.append('the ' + get_extendednums(roman_numerals[token]))
+            # Handling roman numerals.
+            if token in roman_numerals.keys() and not flag:
+                # If the previous token's first letter is capital, then we can be 'somewhat more certain' about using extended form of the roman numeral
+                if bool(re.search(r'^[A-Z]', prev_token)):
+                    # sid 11 --> Chapter 'IV' --> 'four' and not 'the fourth'; notion of proper noun can be developed although sid 49 seems incorrectly labelled
+                    if prev_token not in ['Chapter', 'Page', 'Section', 'Set', 'Game', 'Match']:
+                        sol.append('the ' + get_extendednums(roman_numerals[token]))
+                    else:
+                        sol.append(get_onlydigits(roman_numerals[token]))
                 else:
                     sol.append(get_onlydigits(roman_numerals[token]))
-            else:
-                sol.append(get_onlydigits(roman_numerals[token]))
-            flag = True
+                flag = True
 
-        # Handling currency symbols.
-        if has_symbol(token)[0] and not flag:
-            sol.append(get_symbol(token, has_symbol(token)[1], has_symbol(token)[2]))
-            flag = True
+            # Handling currency symbols.
+            if has_symbol(token)[0] and not flag:
+                sol.append(get_symbol(token, has_symbol(token)[1], has_symbol(token)[2]))
+                flag = True
 
-        # Handling percentage symbols.
-        if has_percent(token) and not flag:
-            sol.append(get_percent(token))
-            flag = True
+            # Handling percentage symbols.
+            if has_percent(token) and not flag:
+                sol.append(get_percent(token))
+                flag = True
 
-        # Handling time units; for ex: '5:30pm PST' --> 'five thirty p m p s t'
-        if has_time(token) and not flag:
-            sol.append(get_time(token))
-            flag = True
+            # Handling time units; for ex: '5:30pm PST' --> 'five thirty p m p s t'
+            if has_time(token) and not flag:
+                sol.append(get_time(token))
+                flag = True
 
-        # Handling all capital tokens (not as abbreviations though).
-        if has_allcaps(token) and (len(token) > 1) and not flag:
-            # if token == 'ISBN':
-            #   left_is_isbn = True
-            sol.append(get_allcaps(token))
-            flag = True              # because we are directly continuing ahead
+            # Handling all capital tokens (not as abbreviations though).
+            if has_allcaps(token) and (len(token) > 1) and not flag:
+                # if token == 'ISBN':
+                #   left_is_isbn = True
+                sol.append(get_allcaps(token))
+                flag = True              # because we are directly continuing ahead
 
-        # Handling common abbreviations not capitalized
-        if has_specialfullform(token):
-            sol.append(get_specialfullform(token))
-            flag = True
+            # Handling common abbreviations not capitalized
+            if has_specialfullform(token):
+                sol.append(get_specialfullform(token))
+                flag = True
 
-        # Handling dates.
-        if has_date(token)[0] and not flag:
-            res = get_date(token, has_date(token)[1])
-            sol.append(res)
-            flag = True
+            # Handling dates.
+            if has_date(token)[0] and not flag:
+                res = get_date(token, has_date(token)[1])
+                sol.append(res)
+                flag = True
 
-        # Handling 4 digits of numerals; years in general, if there are no symbols, before other numerical strings.
-        if has_fournumeric(token) and not flag:
-            sol.append(get_fournumeric(token))
-            flag = True
+            # Handling 4 digits of numerals; years in general, if there are no symbols, before other numerical strings.
+            if has_fournumeric(token) and not flag:
+                sol.append(get_fournumeric(token))
+                flag = True
 
-        # Handling pure numericals (numbers).
-        # if has_onlydigits(token.lstrip('0')) and not flag and not left_is_isbn:
-        if has_onlydigits(token.lstrip('0')) and not flag:
-            sol.append(get_onlydigits(token))
-            flag = True
+            # Handling pure numericals (numbers).
+            # if has_onlydigits(token.lstrip('0')) and not flag and not left_is_isbn:
+            if has_onlydigits(token.lstrip('0')) and not flag:
+                sol.append(get_onlydigits(token))
+                flag = True
 
-        # Handling division of numbers.
-        if has_division(token) and not flag:
-            sol.append(get_division(token))
-            flag = True
+            # Handling division of numbers.
+            if has_division(token) and not flag:
+                sol.append(get_division(token))
+                flag = True
 
-        # Handling extended numericals, for ex: 21st --> 'twenty first'; has to be handled before units.
-        if has_extendednums(token) and not flag:
-            sol.append(get_extendednums(token))
-            flag = True
+            # Handling extended numericals, for ex: 21st --> 'twenty first'; has to be handled before units.
+            if has_extendednums(token) and not flag:
+                sol.append(get_extendednums(token))
+                flag = True
 
-        # Handling tokens having numeric character with units (has to be done before ISBN; for ex: 823.05 KB).    
-        if has_units(token) and not flag:
-            sol.append(get_units(token))
-            flag = True
+            # Handling tokens having numeric character with units (has to be done before ISBN; for ex: 823.05 KB).    
+            if has_units(token) and not flag:
+                sol.append(get_units(token))
+                flag = True
 
-        # Handling decimal values.
-        if has_decimal(token) and not flag:
-            sol.append(get_decimal(token))
-            flag = True
+            # Handling decimal values.
+            if has_decimal(token) and not flag:
+                sol.append(get_decimal(token))
+                flag = True
 
-        # Handling ISBN Code.
-        # if not flag and left_is_isbn or has_isbncode(token):
-        if (has_isbncode(token) and not flag):
-            sol.append(get_isbncode(token))
-            flag = True
-            # left_is_isbn = False          # the immediate numerical instance after 'ISBN' has been handled
+            # Handling ISBN Code.
+            # if not flag and left_is_isbn or has_isbncode(token):
+            if (has_isbncode(token) and not flag):
+                sol.append(get_isbncode(token))
+                flag = True
+                # left_is_isbn = False          # the immediate numerical instance after 'ISBN' has been handled
 
-        # If nothing else, then the token should be <self>.
-        if not flag:
-            # Hard-Coding due to ambiguous Piazza post
-            # if token in ['Nahr', 'Yai', 'Phrao', 'mes']:
-            #     sol.append(get_allcaps(token))
-            # else:
-            #     sol.append('<self>')
+            # If nothing else, then the token should be <self>.
+            if not flag:
+                # Hard-Coding due to ambiguous Piazza post
+                # if token in ['Nahr', 'Yai', 'Phrao', 'mes']:
+                #     sol.append(get_allcaps(token))
+                # else:
+                #     sol.append('<self>')
+                sol.append('<self>')
+
+            prev_token = token          # prev_token is used to has information about the just previous token and this information can extensively be used for ISBN codes
+            flag = False                # preparing for the next iteration.
+            left_is_isbn = False        
+        except:
             sol.append('<self>')
-
-        prev_token = token          # prev_token is used to has information about the just previous token and this information can extensively be used for ISBN codes
-        flag = False                # preparing for the next iteration.
-        # left_is_isbn = False        
-
     return sol
 
 ## Saves the solutions in a the file name sent as input argument
