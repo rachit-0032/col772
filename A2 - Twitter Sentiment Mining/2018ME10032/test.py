@@ -7,7 +7,8 @@ import pre_processing as pp
 
 
 ## Loading Data
-model_location = sys.argv[1]
+# print(sys.argv[1] + '/model.txt')
+model_location = sys.argv[1] + '/model.txt'
 test_location = sys.argv[2]
 prediction_location = sys.argv[3]
 

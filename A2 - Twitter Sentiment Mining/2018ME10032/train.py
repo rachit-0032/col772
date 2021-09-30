@@ -12,8 +12,8 @@ from sklearn.pipeline import Pipeline
 
 
 ## Loading Data
-train_location = sys.argv[1]
-model_location = sys.argv[2]
+train_location = sys.argv[1] + '/training.csv'
+model_location = sys.argv[2] + '/model.txt'
 
 
 ## Reading data
